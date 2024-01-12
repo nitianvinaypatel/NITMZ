@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Morphosis">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_tool"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/rectangle"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:background="@color/darkBlue"
+            android:src="@drawable/backbtn"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:text="Morphosis"
+            android:textSize="23dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Morphosis"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:src="@drawable/morphis"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="350dp"/>
+
+            <TextView
+                android:text="@string/mortxt"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:textColor="#666666"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:id="@+id/copywrite"
+                android:background="#ffffff"
+                android:padding="7dp"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <com.example.nitmz.utils.Montserrat_SemiBold
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powerd By"
+                    android:layout_alignParentBottom="true"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:textColor="#666666"
+                    android:gravity="center|top"
+                    android:padding="4dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="-2dp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Codingation"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

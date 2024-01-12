@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Assignment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_tool"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/rectangle"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:background="@color/darkBlue"
+            android:src="@drawable/backbtn"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:text="Assignment"
+            android:textSize="23dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:text="this feature is not availabe yet, we are working on Faculty App, soon it will be here\n Stay tuned.."
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/andika_new_basic"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

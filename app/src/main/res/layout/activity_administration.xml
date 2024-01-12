@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Administration">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_tool"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/rectangle"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:background="@color/darkBlue"
+            android:src="@drawable/backbtn"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:text="NITMZ Administration"
+            android:textSize="23dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/director"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+            <TextView
+                android:text="Prof. S. Sundar"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="(Director)"
+                android:textSize="18sp"
+                android:layout_marginTop="-12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/admintxt1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/ajmal"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+            <TextView
+                android:text="Prof. Ajmal Koya Pulikkal"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="(Registrar i/c)"
+                android:textSize="18sp"
+                android:layout_marginTop="-12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/admintxt2"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/zote"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+            <TextView
+                android:text="Ms Lalthianghlimi Zote"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="(Deputy Registrar)"
+                android:textSize="18sp"
+                android:layout_marginTop="-12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/admintxt3"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/lalruangi"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+            <TextView
+                android:text="Dr. Lalhruaitluangi"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="(Assistant Registrar)"
+                android:textSize="18sp"
+                android:layout_marginTop="-12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/admintxt4"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/rudra"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+            <TextView
+                android:text="Dr. Rudra Sankar Dhar"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Dean (Academics)"
+                android:textSize="18sp"
+                android:layout_marginTop="-12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="e-mail: dean_acad@nitmz.ac.in"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/saibal"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+            <TextView
+                android:text="Prof. Saibal Chatterjee"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Dean (Research and Consultancy)"
+                android:textSize="18sp"
+                android:layout_marginTop="-12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/admintxt5"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/gyanendra_s"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+            <TextView
+                android:text="Dr. K. Gyanendra Singh"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Dean (Students' Welfare)"
+                android:textSize="18sp"
+                android:layout_marginTop="-12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/admintxt6"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/ajmal"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+            <TextView
+                android:text="Prof. Ajmal Koya Pulikkal"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Dean (Faculty Welfare)"
+                android:textSize="18sp"
+                android:layout_marginTop="-12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="e-mail: dean_fw@nitmz.ac.in"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/mohan"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+            <TextView
+                android:text="Dr.Bijayananda Mohanty"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Dean (Planning and Development)"
+                android:textSize="18sp"
+                android:layout_marginTop="-12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/admintxt7"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/anumoy"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+            <TextView
+                android:text="Dr. Anumoy Ghosh"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="(Examination Incharge)"
+                android:textSize="18sp"
+                android:layout_marginTop="-12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="e-mail: examination@nitmz.ac.in"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/angaha"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+            <TextView
+                android:text="Dr. Anagha Bhattachrya"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="(Examination Incharge)"
+                android:textSize="18sp"
+                android:layout_marginTop="-12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="e-mail: examination@nitmz.ac.in"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/sukanata_roy"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+            <TextView
+                android:text="Dr. Sukanta Roy"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="(TnP Incharge)"
+                android:textSize="18sp"
+                android:layout_marginTop="-12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/admintxt8"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/sauravs"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+            <TextView
+                android:text="Dr. Saurav Suman"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="@string/games_sports_in_charge"
+                android:textSize="18sp"
+                android:layout_marginTop="-12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="e-mail:game_sport_activity@nitmz.ac.in"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/rickey"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+            <TextView
+                android:text=" Dr. Ricky Lalthazuala"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="@string/games_sports_in_charge"
+                android:textSize="18sp"
+                android:layout_marginTop="-12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="e-mail:game_sport_activity@nitmz.ac.in "
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/lenin_sir"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+            <TextView
+                android:text="Dr. Lenin Laitonjam"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="(Scholarship Incharge)"
+                android:textSize="18sp"
+                android:layout_marginTop="-12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="e-mail: scholarship@nitmz.ac.in"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/sauravs"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+            <TextView
+                android:text=" Dr. Saurav Suman"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="(Assistant Faculty In-charge)"
+                android:textSize="18sp"
+                android:layout_marginTop="-12dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="e-mail: scholarship@nitmz.ac.in"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

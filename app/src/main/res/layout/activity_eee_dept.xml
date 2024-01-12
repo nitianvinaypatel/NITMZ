@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Eee_dept">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_tool"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/rectangle"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:background="@color/darkBlue"
+            android:src="@drawable/backbtn"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:text="EE Department"
+            android:textSize="23dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/electrical_dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_height="200dp"/>
+
+            <TextView
+                android:text="Welcome to the Department of"
+                android:layout_gravity="center"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="@string/electrical_electronics_engineering"
+                android:layout_gravity="center"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="National Institute Of Technology"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Mizoram"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/eetext1"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="19sp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Faculties @ EE Department"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/saibal"
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+            <TextView
+                android:text="Prof. Saibal Chatterjee"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/eef1"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/pabitra"
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+            <TextView
+                android:text="Dr. Pabitra Kumar Biswas"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/eef2"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/suman"
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+            <TextView
+                android:text="Dr. Suman Majumder"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/eef3"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/krish_de"
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+            <TextView
+                android:text="Dr. Krishnarti De"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/eef4"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/reshma"
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+            <TextView
+                android:text="Dr. Ramesh Kumar"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/eef5"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/angaha"
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+            <TextView
+                android:text="Shri. Anagha Bhattacharya"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/eef6"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/sukanta"
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+            <TextView
+                android:text="Dr. Sukanta Debnath"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/eef7"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:textColor="#666666"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:id="@+id/copywrite"
+                android:background="#ffffff"
+                android:padding="7dp"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <com.example.nitmz.utils.Montserrat_SemiBold
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powerd By"
+                    android:layout_alignParentBottom="true"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:textColor="#666666"
+                    android:gravity="center|top"
+                    android:padding="4dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="-2dp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Codingation"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

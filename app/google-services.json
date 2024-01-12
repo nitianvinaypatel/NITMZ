@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "45369129882",
+    "project_id": "nit-mizoram",
+    "storage_bucket": "nit-mizoram.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45369129882:android:88f1ba841de9a6b2ce5823",
+        "android_client_info": {
+          "package_name": "com.example.nitmizoram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWKnHhpFnJ0RikhD4VbuFQu3m97Y0_NFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45369129882:android:58dfa3faa4988eefce5823",
+        "android_client_info": {
+          "package_name": "com.example.nitmz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWKnHhpFnJ0RikhD4VbuFQu3m97Y0_NFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".NitBuses">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/rectangle"
+        android:layout_height="?attr/actionBarSize">
+
+        <LinearLayout
+            android:id="@+id/linearLayout_tool"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            tools:ignore="MissingConstraints">
+
+            <ImageButton
+                android:id="@+id/backbtn"
+                android:background="@color/darkBlue"
+                android:src="@drawable/backbtn"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:text="NIT Buses"
+                android:textSize="23dp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/convergence"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/day"
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- ViewPager for Mess Menus -->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:tabTextColor="@color/black"
+            app:tabSelectedTextColor="@color/red"
+            app:tabIndicatorColor="@color/darkBlue"
+            app:tabIndicatorHeight="4dp"
+            app:tabMode="scrollable"
+            app:tabGravity="center"/>
+    </androidx.viewpager.widget.ViewPager>
+
+    <!-- TabLayout for Tabs -->
+
+</LinearLayout>

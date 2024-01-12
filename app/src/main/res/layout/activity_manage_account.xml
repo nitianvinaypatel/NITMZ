@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="0dp"
+    android:background="@color/white"
+    android:layout_marginBottom="5dp"
+    android:theme="@style/AppTheme"
+    tools:context=".ui.Profile.ProfileFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/rectangle"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/backbtn"
+            android:src="@drawable/backbtn"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:text="Edit Profile"
+            android:textSize="23dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="750dp"
+                android:layout_marginTop="?attr/actionBarSize"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/manage_profile"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/user_profile_icon"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="@color/darkBlue"
+                    android:background="@drawable/circular_shape" />
+
+
+
+                <LinearLayout
+
+                    android:layout_width="380dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="360dp"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/manage_name"
+                            android:fontFamily="@font/convergence"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/name"
+                            android:inputType="text|textPersonName" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="360dp"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/manage_rollNo"
+                            android:fontFamily="@font/convergence"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="match_parent"
+                            android:hint="@string/roll_number"
+                            android:inputType="text|textPersonName" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        android:layout_width="360dp"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        tools:ignore="ExtraText">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/manage_course"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/convergence"
+                            android:layout_weight="1"
+                            android:text="Select Your Course"
+                            android:inputType="none" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        android:layout_width="360dp"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/manage_branch"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/convergence"
+                            android:layout_weight="1"
+                            android:text="Select Your Branch"
+                            android:inputType="none" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        android:layout_width="360dp"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/manage_semester"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/convergence"
+                            android:layout_weight="1"
+                            android:text="Select Your Semester"
+                            android:inputType="none" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        android:layout_width="360dp"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/manage_hostel"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/convergence"
+                            android:layout_weight="1"
+                            android:text="Select Your Hostel"
+                            android:inputType="none" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="360dp"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/manage_phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/convergence"
+                            android:hint="Phone Number"
+                            android:inputType="number" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/Update_btn"
+                        android:layout_width="250dp"
+                        android:layout_height="58dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="@font/convergence"
+                        android:layout_gravity="center"
+                        android:background="@drawable/getstartedbtn"
+                        android:text="Update"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        android:layout_width="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:visibility="gone"
+                        android:layout_height="30dp"/>
+
+
+                    <TextView
+                        android:text="Note: Please Fill Correct Information Only."
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/antic"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</FrameLayout>

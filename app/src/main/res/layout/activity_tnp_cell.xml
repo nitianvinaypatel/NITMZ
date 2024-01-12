@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".TnpCell">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_tool"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/rectangle"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:background="@color/darkBlue"
+            android:src="@drawable/backbtn"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:text="TnP Cell"
+            android:textSize="23dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/walkingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Highest Packege: 28 LPA | Average Package: 10 LPA"
+        android:layoutDirection="rtl"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/new_tnp_ic"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+            <TextView
+                android:text="Welcome to"
+                android:layout_gravity="center"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Traning and Placement Cell,"
+                android:layout_gravity="center"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="National Institute Of Technology"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Mizoram"
+                android:layout_gravity="center"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/tnp_info"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/tnp_info2"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:text="-Internship of the Students"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="-Corporate Grooming of the students"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+            <TextView
+                android:text="-Conducting various grooming sessions from industry experts"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="-Conducting Guest Lectures"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="-Final Placement of the final year students
+"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/tnp_info3"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/tnp_info4"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:text="@string/tnp_info5"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/tnp_officer_dp"
+                android:src="@drawable/user_profile_icon"
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+            <TextView
+                android:id="@+id/tnp_officer_name"
+                android:text="Name"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="(TnP Officer)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/tnp_officer_branch"
+                android:text="Branch"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/tnp_officer_phone"
+                android:text="Phone"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/tnp_officer_email"
+                android:text="Email"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Team @ Placement Cell"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/chief_coordinator_dp"
+                android:src="@drawable/user_profile_icon"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+            <TextView
+                android:id="@+id/chief_coordinator_name"
+                android:text="Name"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="(Chief Coordinator)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/chief_coordinator_branch"
+                android:text="Branch"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/chief_coordinator_phone"
+                android:text="Phone"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/chief_coordinator_email"
+                android:text="Email"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/coodinator1_dp"
+                android:src="@drawable/user_profile_icon"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+            <TextView
+                android:id="@+id/coordinator1_name"
+                android:text="Name"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="(Coordinator)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/coordinator1_branch"
+                android:text="Branch"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/coodinator1_phone"
+                android:text="Phone"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/coordinator1_email"
+                android:text="Email"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/coordinator2_dp"
+                android:src="@drawable/user_profile_icon"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+            <TextView
+                android:id="@+id/coordinator2_name"
+                android:text="Name"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="(Coordinator)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/coordinator2_branch"
+                android:text="Branch"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/coordinator2_phone"
+                android:text="Phone"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/coordinator2_email"
+                android:text="Email"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/coordinator3_dp"
+                android:src="@drawable/user_profile_icon"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+            <TextView
+                android:id="@+id/coordinator3_name"
+                android:text="Name"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="(Coordinator)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/coordinator3_branch"
+                android:text="Branch"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/coordinator3_phone"
+                android:text="Phone"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/coordinator3_email"
+                android:text="Email"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/coordinator4_dp"
+                android:src="@drawable/user_profile_icon"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+            <TextView
+                android:id="@+id/coordinator4_name"
+                android:text="Name"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="(Coordinator)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/coordinator4_branch"
+                android:text="Branch"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/coordinator4_phone"
+                android:text="Phone"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/coordinator4_email"
+                android:text="Email"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/coordinator5_dp"
+                android:src="@drawable/user_profile_icon"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+            <TextView
+                android:id="@+id/coordinator5_name"
+                android:text="Name"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="(Coordinator)"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andika_new_basic"
+                android:gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/coordinator5_branch"
+                android:text="Branch"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/coordinator5_phone"
+                android:text="Phone"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.example.nitmz.utils.Montserrat_Regular
+                android:id="@+id/coordinator5_email"
+                android:text="Email"
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:textColor="#666666"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:id="@+id/copywrite"
+                android:background="#ffffff"
+                android:padding="7dp"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <com.example.nitmz.utils.Montserrat_SemiBold
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powerd By"
+                    android:layout_alignParentBottom="true"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:textColor="#666666"
+                    android:gravity="center|top"
+                    android:padding="4dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="-2dp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Codingation"/>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

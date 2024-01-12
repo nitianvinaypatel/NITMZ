@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Light.NoActionBar"
+        tools:ignore="ExtraText">
+        <activity
+            android:name=".Hostels"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Developer"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TnC"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".UpdateTNP"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".UpdateSociety"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Shaurya"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Drishti"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Morphosis"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Anunaad"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ECE_Society"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ChemistryDept"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PhysicsDept"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MathsDept"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Ce_dept"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Me_dept"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Eee_dept"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Ece_dept"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CseDept"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminSection.UploadFees"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".UpdateEvents"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".UpdateStaff"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".UpdateFaculty"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DeleteEvents"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DeleteStaff"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DeleteFaculty"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminSection.AddEvents"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminSection.AddStaff"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminSection.AddFaculty"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DeleteNotice"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminSection.UploadNotice"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Academics"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Administration"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".UpdateBus"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AddBuses"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminSection.UpdateBusTiming"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LibraryShow"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminSection.UploadCalender"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PdfViewer"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminSection.UploadBooks"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminSection.UploadPyqs"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminSection.UploadSyllabus"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminSection.UploadNotes"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminSection.UpdateMessMenu"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminSection.UpdateTimeTable"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminWork"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NitBuses"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MessMenu"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CalenderU"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Attendance"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PyqShow"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SyllabusShow"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NotesShow"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PyqSelection"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NotesSelection"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SyllabusSelection"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ChatsActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TheInstitute"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ME_Society"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EEE_Society"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CSS_Society"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Events"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Staff"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Fees"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TnpCell"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Faculty"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LibrarySelection"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Assignment"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ManageAccount"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TimeTable"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".WelcomeScreen"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

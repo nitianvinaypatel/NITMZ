@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:theme="@style/AppTheme"
+    tools:context=".Login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/logo_image"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/nitmz_logo" />
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:layout_gravity="end">
+
+                    <ImageView
+                        android:id="@+id/logo_help"
+                        android:layout_width="25dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/aboutus"
+                        android:layout_gravity="end"
+                        android:gravity="top" />
+
+                    <TextView
+                        android:text="Get Help!"
+                        android:textSize="10sp"
+                        android:layout_width="50dp"
+                        android:layout_gravity="end"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/logo_name"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/bungee"
+                android:text="Hey  Nitian, Welcome Back!"
+                android:textSize="40sp"
+                android:textColor="@color/darkBlue"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/slogan_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/antic"
+                android:textStyle="bold"
+                android:textColor="@color/darkBlue"
+                android:text="Login to Continue!"
+                android:textSize="18sp" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="355dp"
+                android:orientation="vertical">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/email"
+                        android:hint="@string/email"
+                        android:layout_width="match_parent"
+                        android:inputType="textEmailAddress"
+                        android:layout_height="wrap_content"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    app:passwordToggleEnabled = "true"
+                    android:layout_height="wrap_content">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/password"
+                        android:hint="@string/password"
+                        android:layout_width="match_parent"
+                        android:inputType="textPassword"
+                        android:layout_height="wrap_content"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/forgotPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forgot Password?"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/darkBlue"
+                    android:layout_gravity="right"
+                    android:fontFamily="@font/antic"
+                    android:textStyle="bold"
+                    android:background="#00000000"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/loginbtn"
+                    android:layout_width="250dp"
+                    android:layout_height="58dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/getstartedbtn"
+                    android:text="@string/login"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:text="@string/don_t_have_a_account_register"
+                        android:layout_gravity="center"
+                        android:gravity="end|center"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"/>
+
+
+
+                    <TextView
+                        android:id="@+id/RegisterNow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Register"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/antic"
+                        android:gravity="center|start"
+                        android:textColor="@color/darkBlue"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:background="#00000000"/>
+
+
+
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    android:layout_height="40dp"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:textColor="#666666"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:id="@+id/copywrite"
+                android:background="#ffffff"
+                android:padding="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <com.example.nitmz.utils.Montserrat_SemiBold
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Powerd By"
+                    android:layout_alignParentBottom="true"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:textColor="#666666"
+                    android:gravity="center|top"
+                    android:padding="4dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="-2dp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Codingation"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>

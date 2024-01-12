@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">NITMZ</string>
+    <string name="login">Login</string>
+    <string name="email">Email Address</string>
+    <string name="password">Create a Password</string>
+    <string name="register">Register</string>
+    <string name="go_to_login">Go to Login</string>
+    <string name="go_to_register">Go to Register</string>
+    <string name="logout">LogOut</string>
+    <string name="nit_mizoram">National Institute Of Technology</string>
+    <string name="mizoram">Mizoram</string>
+    <string name="get_started">Continue to App</string>
+    <string name="tnc">By Continuing You Agree our</string>
+    <string name="privacy"><u>Terms Of Services &amp; Privacy Policy</u></string>
+    <string name="developer">Made With &#10084; By Vinay Patel</string>
+    <string name="don_t_have_a_account_register">Don`t have an account?</string>
+    <string name="name">Name</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="termsandc">Terms &amp; Conditions</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="explore_possibilities"><![CDATA[< Explore Possibilities >]]></string>
+    <string name="societies"><![CDATA[< Societies >]]></string>
+    <string name="clubs"><![CDATA[< Fests & Clubs >]]></string>
+    <string name="alumini_s"><![CDATA[< Alumini`s >]]></string>
+    <string name="past_recruiters"><![CDATA[< Past Recruiters >]]></string>
+    <string name="help_feedback">Help &amp; Feedback</string>
+    <string name="css_aim">Our aim is to provide a wide range of social, tech and careers activities for all; enabling our members to get to know each other, relax, and enjoy themselves in a friendly environment. We host events such as quizzes, hackathons, tech talks, and workshops. Alongside this, we are active in maintaining links with industry to help you prepare for the world outside of the Institute       </string>
+    <string name="https_bit_ly_2yoj77h">https://bit.ly/2YoJ77H</string>
+    <string name="update_possiblities"><![CDATA[< Update Possiblities >]]></string>
+    <string name="update_socities"><![CDATA[< Update Socities >]]></string>
+    <string name="dinner"><![CDATA[< Dinner >]]></string>
+    <string name="snacks"><![CDATA[< Snacks >]]></string>
+    <string name="lunch"><![CDATA[< Lunch >]]></string>
+    <string name="breakfast"><![CDATA[< Breakfast >]]></string>
+    <string name="updatewarning">"Update everything accurately, as it significantly impacts many students."</string>
+    <string name="bus_number_is_required">Bus Number is Required</string>
+    <string name="bus_time_is_required">Bus Time is Required</string>
+    <string name="please_select_from">Please Select From</string>
+    <string name="please_select_to">Please Select To</string>
+    <string name="departments"><![CDATA[< Departments >]]></string>
+    <string name="courses"><![CDATA[< Courses >]]></string>
+    <string name="codingation">Codingation</string>
+    <string name="powerd_by">Powerd By</string>
+    <string name="manage_neverything_non_your_phone">Manage \nEveryThing \nOn Your Phone</string>
+    <string name="tnp_info">The Institute has a Training and Placement Cell (T &amp; P) cell to cater to the training
+programmes of the students as well as provide platform for placement of the students before they
+complete the final year of the programme. The Institute aims at providing a conducive
+environment to attract maximum number of companies to hire our students. The T&amp;P (Training
+and Placement) Cell of NIT Mizoram not only acts as a facilitator for training and placement but
+also works towards overall development of the students. It works under the guidance of the
+Training and Placement team in consultation with FIC.</string>
+    <string name="tnp_info2">The Training and Placement Cell of the Institute has been set up to look after the
+Industry-Academia interface so that the students can be groomed into industry-ready technocrats.\nThe Training and Placement Cell looks after:</string>
+    <string name="tnp_info3">The Central Training and Placement Cell is committed to the professional progress of
+NIT Mizoram students through integrating the career issues within an academic environment for
+realizing their best possible career path. The Central Training and Placement Cell has a vision to
+help the undergraduate, postgraduate and Ph. D. students of NIT Mizoram through counseling,
+instructions and training for development of desired skills essential for suitable job profile/
+higher education/ self-employment and inviting the Corporate Industries / Research or Academic
+Institutes/ Commercial Organizations/ Public Sector Undertakings for campus placement.
+Ultimate goal is to facilitate the rating of NIT MIZORAM, predominantly dominated by tribal
+area, as one among the best NITs in India in terms of Job Placement through coordination with
+other NITs.</string>
+    <string name="tnp_info4"><![CDATA[The Institute is fortunate to have recruiters from reputed companies like IOCL, ONGC,\nPower Grid, TCS, Infosys, IBM, L & T, WIPRO, Accenture, Cummins, Reliance Jio, Samsung\nElectronics, KEC International, Vedanta, etc.\n]]></string>
+    <string name="tnp_info5">The Institute is fortunate to have placed a record of 80 % placement record till date with a\nhighest package of Rs. 28 Lakhs per annum</string>
+    <string name="computer_science_engineering"><![CDATA[Computer Science & Engineering,]]></string>
+    <string name="csetext1">The Dept. of CSE is amongst the three first departments which started during the inception of the\nInstitute at VNIT Nagpur in the year 2010 with only under graduate programme. Later Master\ndegree started in the year 2018. Doctoral programme has also started from the year 2015. The\ndepartment is one of the most sought for departments amongst the students which has seen many\ncolors in terms of academic performance and placement over the years. Students of the\ndepartment are often selected for internships with reputed universities of Germany, IITs among\nmany others as well as in Software firms. The department manages the Institute network\ninfrastructure along with the ERP system and Website.</string>
+    <string name="csef1"><![CDATA[Assistant Professor & HOD\nNatural Language Processing,\nMachine Learning, Deep Learning\nEmail: sandeep.cse@nitmz.ac.in]]></string>
+    <string name="csef2">Assistant Professor\nNatural Language Processing\nEmail: lenin.cse@nitmz.ac.in</string>
+    <string name="csef3">Assistant Professor\nSocial Robot, Deep Learning,\nArtificial Intelligent, Computer Vision\nEmail: vaibhav.cse@nitmz.ac.in</string>
+    <string name="csef4">Assistant Professor\nWireless networks, Communication\nEmail: lalhruaizela.cse@nitmz.ac.in</string>
+    <string name="csef5">Assistant Professor (on-lien)\nSocial Robot, Deep Learning,\nArtificial Intelligent, Computer Vision\nEmail: rdas@nitmz.ac.in</string>
+    <string name="csef6">Assistant Professor\nArtificial Intelligence, Computer Vision,\nSemantic Web, Multi-access Edge Computing\nEmail: ashish.cse@nitmz.ac.in</string>
+    <string name="csef7">Temporary Faculty\nQuantum Computing, Image processing,\nSteganograpy\nEmail: lalengmawia.cse@nitmz.ac.in</string>
+    <string name="electrical_electronics_engineering"><![CDATA[Electrical Engineering,]]></string>
+    <string name="eetext1"><![CDATA[The Electrical and Electronics Engineering department at NIT Mizoram, established in July 2010, is now named the Electrical Engineering department starting from the 2023-2024 session. The department offers B.Tech, M.Tech, and Ph.D. programs, with a focus on high-quality education and industry-oriented research. The faculty, consisting of eight members, has expertise in various areas like Power Electronics, Control Systems, Electric Vehicles, etc. Well-equipped laboratories, including Electrical Machine Lab and Power System Simulation Lab, support student learning. The Computer and Simulation Lab provides software such as MATLAB, PSCAD, ETAP, and PSIM. The department has published numerous research papers, filed patents, and completed a sponsored project. Students have achieved placements in renowned companies and pursued higher education in esteemed institutions. The campus placement for the 2022 batch was 80.95%, with the highest package at Rs. 14 Lakhs.]]></string>
+    <string name="eef1">Professor (Dean RC)\nHigh Voltage, Power Systems\nEmail: saibal.eee@nitmz.ac.in</string>
+    <string name="eef2">Associate Professor\nElectromagnetic Levitation system,\nActive magnetic bearing,\nPower Electronics converters...\nEmail: pabitra.eee@nitmz.ac.in</string>
+    <string name="eef3">Assistant Professor (HOD)\n Simulation and Controller Design for\nElectric motor drive System, Algorithm\nDevelopment for Energy Management\nin E-mobility System...\nEmail: suman.eee@nitmz.ac.in</string>
+    <string name="eef4">Assistant Professor\nE-mobility, Renewable Energy Integration\nand smart Grid, Algorithm for\nE-mobility Contingency...\nEmail: krishnarti.eee@nitmz.ac.in</string>
+    <string name="eef5">Associate Professor\nRenewable Energy, Microgrid, Power \nSystem, Power Quality...\nEmail: ramesh.eee@nitmz.ac.in</string>
+    <string name="eef6">Associate Professor\nMicro grid,Deregulation,\nDistributed Generation\nEmail: anagha.eee@nitmz.ac.in</string>
+    <string name="eef7">Temporary Faculty\nActive Magnetic Bearing, Machine \nDrives, Power System\nEmail: sukanta.eee@nitmz.ac.in</string>
+    <string name="eef8">Temporary Faculty\nActive Magnetic Bearing, Machine Drives, Power System</string>
+    <string name="electronics_communication_engineering"><![CDATA[Electronics & Communication Engineering,]]></string>
+    <string name="eceext1"><![CDATA[The Electronics & Communication Engineering Department at NIT Mizoram started in 2010 at VNIT Nagpur and later moved to Aizawl. It now offers B.Tech, M.Tech, Dual Degree with M.Tech, and Ph.D. programs. Spread across three academic blocks, it houses specialized laboratories for software and hardware-based practical courses. The faculty, consisting of 6 members, is dedicated to teaching and research in areas like RF & Microwave Engineering, VLSI, and Communication Systems. The department has notable research publications, government-sponsored projects, and alumni in prestigious roles. With a student population across various years, the department emphasizes student-centric teaching, organizes short-term courses, and encourages industrial internships. As part of ongoing growth, a Dual-Degree 5-year program with a specialization in Computational Nanotechnology and Semiconductors has been introduced. The department is committed to providing a nurturing and promising educational environment.]]></string>
+    <string name="ecef1">Associate Professor (Dean Acad)\n Nano-and-Microelectronics, Semiconductor, Electronics (IV / III-V / II-VI), Nanomaterial, Optoelectronics, Nanophotonics...\nEmail: rudra.ece@nitmz.ac.in</string>
+    <string name="ecef2">Assistant Professor\nMicrowave Sources, Communication Systems\nEmail: chaitali.ece@nitmz.ac.in</string>
+    <string name="ecef3">Assistant Professor\nAntennas, Electromagnetic periodic structures, RF energy scavenging, Microwave passive circuits.\nEmail: anumoy.ece@nitmz.ac.in</string>
+    <string name="ecef4"><![CDATA[Assistant Professor (HOD)\nTCAD Modeling & Simulation, MEMS based Sensors,FPGA system, IoT, and Electric Vehicles & Energy Storage...\nEmail: sushanta.ece@nitmz.ac.in]]></string>
+    <string name="ecef5">Assistant Professor\nSemiconductor Devices, Advanced MOS Devices, Simulation and Modeling, Sensor Applications\nEmail: kpuitea.ece@nitmz.ac.in</string>
+    <string name="ecef6">Temporary Faculty\nCapacitorless Memory Design, Capcitorless1T-DRAM, VLSI, System Level Design, FPGA, SoC...\nEmail: pragati.ece@nitmz.ac.in</string>
+    <string name="ecef7"><![CDATA[Temporary Faculty\nWireless sensor networks & Wireless communication\nEmail: remika.ece@nitmz.ac.in]]></string>
+    <string name="cext1">The Department of Civil Engineering started functioning from July, 2014. Currently, there are 4\nregular faculties and 4 temporary faculties and 1 technician.The Department offers four \nyears Undergraduate Programme with a student capacity intake of 30 students and \nPhD Programme.\n</string>
+    <string name="cef1"><![CDATA[Associate Professor (Dean P&D)\nGeotechnical Earthquake Engineering, Dynamic Soil Structure Interaction Analysis, Liquefaction Modeling...\nEmail: bijayananda.ce@nitmz.ac.in]]></string>
+    <string name="cef2">Assistant Professor\nStructural analysis and design, Composite and steel structure, Thin-walled structures, Tubular structure...\nEmail: ricky.ce@nitmz.ac.in</string>
+    <string name="cef3">Assistant Professor (HOD)\nThin-Walled Tubular Structures, Torsion of tubular members, Stainless steel, Cold-formed structural steel members...\nEmail: vipej.ce@nitmz.ac.in</string>
+    <string name="cef4">Assistant Professor\nSolid Waste Management,Plastic Waste Management, Biochar Energy and Environmental Applications, Hydrothermal Carbonisation...\nEmail: kumar.ce@nitmz.ac.in</string>
+    <string name="cef5">Assistant Professor\nStability, Nonlinear Dynamics, Nonlinear Vibration, Thin-Walled Structures, Plates and Shells, Composite Materials...\nEmail: amit.ce@nitmz.ac.in</string>
+    <string name="metext1">The Mechanical Engineering Department at NIT Mizoram, established in 2013, offers B.Tech with an annual intake of 30 students. The PhD program started in 2016, and M.Tech in Thermal Engineering with an intake of 10 students began in 2018. The department has qualified faculty, supporting staff, and well-equipped labs, including Engineering Workshop, Thermal Engineering, Manufacturing, and Fluid Mechanics labs. A Computer and Simulation Lab with software like MATLAB and ANSYS is available. Faculty and students have published numerous papers, and the department has undertaken research projects. Currently, 26 students are pursuing Ph.D., with one already awarded. The department organizes workshops, short-term courses, and conferences. Graduates secure placements in top companies, and many pursue higher education in renowned institutions in India and abroad. The campus placement for the 2022 B.Tech batch is 43%.</string>
+    <string name="mef1">Associate Professor\nFluidization Engineering, Carbon Capture and Sequestration, Biomass Energy Conversion, Gasification Technology, Renewable Energy\nEmail: lalhmingsanga.mech@nitmz.ac.in</string>
+    <string name="mef2">Associate Professor\nIC Engine, MADM, CFD, Plasma Nitriding, Industrial Management, Soft Computing, Exergy Analysis, Biofuel Production, Wind Energy\nEmail: bidesh.999@gmail.com</string>
+    <string name="mef3">Associate Professor\nFluid Mechanics, Heat Transfer, I.C. Engine, CFD\nEmail: bdebnitmz@gmail.com</string>
+    <string name="mef4">Assistant Professor (HOD)\nDesign and Manufacturing ( Welding Mechanics, Mitigation methods, Residual stresses, Additive Manufacturing...\nEmail: saurav.mech@nitmz.ac.in</string>
+    <string name="mef5">Associate Professor\nExperimental and Computational Fluid Dynamics, Wind Turbine Aerodynamics and Hydro-kinetic Turbines...\nEmail: sukanta.me@nitmz.ac.in</string>
+    <string name="mef6">Assistant Professor\nManufacturing Processes, Additive Manufacturing, 3D- Printing, Laser Powder Bed Fusion (L-PBF), Selective Laser Melting (SLM)...\nEmail:  vijay.me@nitmz.ac.in</string>
+    <string name="mathstext1">The Mathematics Department at NIT Mizoram is a leading department with a dedicated faculty. Recognizing the significance of Mathematics in engineering, the department has introduced a new BTech Programme in Mathematics and Computing. This program emphasizes a comprehensive understanding of mathematical principles applied in computer science. Additionally, the department offers a PhD Programme in Mathematics, providing a platform for in-depth research. Faculty members actively engage in collaborative research, enhancing the academic environment. The department focuses on excellence in education, offering diverse courses to engineering students and ensuring a strong foundation in Mathematics for analytical and problem-solving skills.</string>
+    <string name="mathf1">Associate Professor\nBilevel programs with non convex lower level programs Mathematical programs with equilibrium constraints, switching constraints, vanishing constraints...\nEmail: vinaysingh14aug@gmail.com</string>
+    <string name="mathf2">Assistant Professor (on-lien)\nConvection in Porous Media, Heat and Mass Transfer, Nanofluids, Non-Newtonian Fluid Flows, Analytical, semi-analytical and numerical methods for fluid flow problems.\nEmail: surender.math@nitmz.ac.in</string>
+    <string name="mathf3">Temporary Faculty\nNumerical Methods for Fractional PDEs, Numerical Approximations of Fractional Derivatives, Variable and Distributive Order PDEs, Operational Matrix Methods.\nEmail: nikhil.math@nitmz.ac.in</string>
+    <string name="phytext1">A sound knowledge of physics is extremely important for laying the foundation of a future engineer. Thus, it is very important that physics education should become an integral part of the whole engineering education. The Department of Physics is an important science department dedicated to impart quality Physics education to students. The department has started Ph.D. program in physics in the academic year 2014-15</string>
+    <string name="phyf1"><![CDATA[Professor\nMaterials Science & NMR\nEmail: alok.physics@nitmz.ac.in]]></string>
+    <string name="chemtext1">Department of Chemistry was started in the year 2011. The department is committed to impart quality education in chemical science in compliance with the vision and mission of the institute. Currently, it offers two theory and one practical courses in Chemistry for undergraduate B.Tech students. The department has started Ph.D. program in chemistry in the academic year 2014-15. \n</string>
+    <string name="chemf1">Professor (Dean FW)\nColloids, Surfactants, Electrochemistry, Water pollution, Interaction of amphiphiles with drugs, polymers and clay.\nEmail: ajmal.chem@nitmz.ac.in\n</string>
+    <string name="csstext1">Our identity revolves around fostering a vibrant community where members can connect, unwind, and thrive in a welcoming atmosphere. As a society, we pride ourselves on orchestrating an array of events that cater to diverse interests, blending social, tech, and career-focused activities.\n\nEmbark on a journey with us through engaging quizzes, exhilarating hackathons, enlightening tech talks, and hands-on workshops. We strive to provide experiences that not only broaden your knowledge but also create lasting memories. \n\nBeyond the confines of our institute, we actively cultivate relationships with industry professionals. This strategic alliance aims to equip you with insights and skills essential for navigating the dynamic landscape beyond our academic realm.\n\nAt CSS, we are not just a society; we are a community that thrives on shared passions and collective growth. Join us in this exciting adventure where learning, networking, and enjoyment converge in a harmonious blend.</string>
+    <string name="electronics_communication_engineering_society"><![CDATA[Electronics & Communication Engineering Society,]]></string>
+    <string name="ecetext1">ECE Society is a hub for fostering a dynamic community where members can connect, learn, and thrive in a collaborative environment. Our identity revolves around organizing a diverse array of events that cater to various interests, seamlessly blending social, technical, and career-focused activities.Embark on a journey of exploration with us through stimulating quizzes, innovative hackathons, enlightening tech talks, and hands-on workshops. Our commitment is to provide experiences that not only deepen your technical knowledge but also create enduring memories.Venture beyond the confines of our institute as we actively forge connections with industry professionals. This strategic partnership is designed to equip you with insights and skills essential for navigating the evolving landscape beyond our academic sphere.At ECE Society, we are more than just an organization; we are a community that thrives on shared passions and collective growth. Join us in this exciting adventure where learning, networking, and enjoyment converge in a harmonious blend.</string>
+    <string name="mes">Mechanical Engineering Society (MES) is the beating heart of innovation and collaboration, providing a platform for our members to unite, grow, and excel in the ever-evolving field of mechanical engineering. At MES, our essence lies in orchestrating a myriad of events that embrace the multifaceted aspects of our discipline, integrating social, technical, and career-oriented endeavors.As a thriving community, we are dedicated to cultivating an environment that nurtures both curiosity and expertise. Our calendar is adorned with events ranging from insightful technical workshops and engaging seminars to networking opportunities with industry leaders. Through these endeavors, we aim to bridge the gap between academia and industry, preparing our members for successful careers in the dynamic realm of mechanical engineering.Join MES to embark on a journey of knowledge acquisition, skill development, and professional networking. Together, lets forge the future of mechanical engineering excellence.</string>
+    <string name="ees1">At EES, we are dedicated to cultivating a dynamic community where members can connect, learn, and flourish in a welcoming environment. Our identity revolves around orchestrating a range of events that cater to diverse interests, integrating social, technical, and career-focused activities.Embark on an enlightening journey with us through captivating quizzes, stimulating hackathons, informative tech talks, and hands-on workshops. We are committed to providing experiences that not only expand your knowledge but also create enduring memories.Beyond the boundaries of our institute, we actively foster connections with industry professionals. This strategic partnership is designed to equip you with insights and skills crucial for navigating the ever-evolving landscape beyond our academic sphere.At EES, we are more than just a society; we are a close-knit community that thrives on shared passions and collective growth. Join us on this exciting adventure where learning, networking, and enjoyment converge seamlessly in a harmonious blend.</string>
+    <string name="anunaadtxt">The institute organizes an annual festival to welcome the freshers and celebrate the spirit of college-hood. A grand spectacle, the cultural festival consists of events like drama, singing, dance and literary activities. This is a stage for students to showcase their talent beyond the boundaries of engineering and academic.</string>
+    <string name="dristitxt">Drishti is a Photography club at NIT Mizoram.Being the picturesque and beautiful place that it is. Drishti offers great opportunities to capture natures beauty in mizoram. The cloud covered green mountains are like the most beautiful paintings on nature`s canvas, and the club is platform for students to demonstrate their photography talents.</string>
+    <string name="sauryatxt">Shaurya is the annual interdepartmental sports meet organized every year by the sports society of nit Mizoram to carve out the hidden potential of the students in the form of various number of events ranging from mainstream sports to popular games. It prepares a sound platform to the students to showcase their slumbering vigour, potential, stamina and incessant courage. It also proves to be a sort of stress-reliever to the students.</string>
+    <string name="sauryatxt1">NIT Mizoram is conducting sports festival annually named as SHAURYA which includes different outdoor and indoor sports activities such as Cricket, Football, Basketball, Handball, Athletics, Kabaddi, Table Tennis, Badminton, etc. Also, NIT Mizoram students are participating in INTER NIT Sports competition.</string>
+    <string name="mortxt">Morphosis is the annual technical festival organized by the Technical Society of NIT Mizoram. It is essentially a techno marvel organized every year with the primary objective of instilling technical and managerial skills in the participants. We aim to blend the realms of technology and management seamlessly, creating a unique festival that reflects the sincere commitment to nurturing the talents of our participants.We present to you a plethora of engaging and, needless to say, exhilarating events that not only offer an excellent support system to the participants but also provide them with a distinguished platform to showcase their abilities. Morphosis is more than just a festival; it\'s an opportunity for participants to explore, learn, and grow in a vibrant and dynamic environment.</string>
+    <string name="institxt1">(An Institution of National Importance under Ministry of Education (Shiksha Mantralaya), Govt. of India)</string>
+    <string name="institxt2">The Ministry of Human Resources Development, Government of India, through its orders numbered F. 23-13-2009 TS-III dated October 30, 2009, and March 3, 2010, made the decision to establish ten new National Institutes of Technology (NITs). In accordance with this directive, NIT Mizoram commenced its journey in 2010 within the state of Mizoram, dedicated to providing education, conducting research, and offering training programs leading to degrees in B.Tech, M.Tech, M.Sc., and Ph.D. Recognizing its significance, the institute has been conferred the status of an Institute of National Importance through an Act of Parliament.\n\nAdmission to NIT Mizoram is conducted through the All India Entrance Exam-Joint Entrance Exam (JEE Mains), ensuring a competitive and merit-based selection process.\n\nSituated amidst the breathtaking scenery of Mizoram, NIT Mizoram is surrounded by clouds and mountain rocks, enhancing its natural beauty. Mizoram, with a remarkable literacy rate of 91%, stands as one of the most educated states in our country, providing a peaceful and conducive environment for academic pursuits.\n\nTo meet the demands of the ever-evolving academic landscape, the institute is equipped with state-of-the-art laboratories housing the latest equipment and cutting-edge software installations. This commitment to modern infrastructure ensures that NIT Mizoram remains at the forefront of educational excellence, preparing students to face the challenges of the contemporary world.</string>
+    <string name="institxt3">1).To serve the societal needs of the country in particular and the world in general through\nachieving excellence in innovative scientific and technical education and cutting edge research.\n2). To impart and enhance quality technical and scientific education to young men and\nwomen.\n3). To serve the societal needs of the country in particular and the world in general through\nachieving excellence in innovative scientific and technical education and cutting edge research.\n</string>
+    <string name="institxt4">1). To impart and enhance quality technical and scientific education to young men and women.\n2). To promote all fields of innovations and provide support to the entrepreneurs.\n3). To promote all fields of innovations and provide support to the entrepreneurs</string>
+    <string name="institxt5"><![CDATA[1).To offer modern Under Graduate (UG) Programmes in various branches of Engineering, viz., Computer Science & Engineering, Electronics & Communication Engineering, Electrical Engineering, Mechanical Engineering, Civil Engineering, Mathematics and Computing, etc.\n2).To comprehend enriched Post Graduate (PG) Programmes in Computer Science & Engineering, Electronics & Communication Engineering, Electrical Engineering, Mechanical Engineering, Civil Engineering, while initiate for new PG programmes in Mathematics, Physics, Chemistry, Humanities and Social Sciences, MBA, etc.\n3).To introduce new (5 year) dual-degree programme BTech-MTech from all the existing Departments of BTech after completion of their 3rd year for MTech specialization in Computational Nanotechnology and Semiconductors and also in Data Sciences.\n4).To provide facilities for research in all Engineering Departments, Basic and Applied Sciences, Humanities and Social Sciences and also in the most imminent Interdisciplinary areas leading to Doctoral Degrees.]]></string>
+    <string name="institxt6">NIT Mizoram began its journey in 2009 to achieve global renown in research and education.Since 2009, the Institute has progressed rapidly. Presently, there are about 850 students studying in various disciplines of Engineering, Sciences, Humanities and Social Sciences. The Institute is working untiringly to impart quality education that keeps pace with the latest advances in research and development activities.\n\nWe have signed an MOU with IIT Madras on academic and research activities, exchange of academic information, scholarly information, materials, and publications, exchange of students and faculty, and sponsorship of cooperative seminars, workshops, and other academic meetings from 2022-23. The top 11 students from each Department have continued their B. Tech final years at IIT Madras and 2 students are ready to continue their PhD at IIT Madras.\n\nThe year 2021 saw an increase of over 60 students. From 18th to 19th June 2022, NIT Mizoram organized FICTA 2022. Our faculty and research scholars have published in reputed journals including Nature and won several awards including best paper awards in international conferences. Dr. S. Vipej Devi, faculty member of Civil Engineering Department has won the prestigious postdoctoral industrial fellowship granted by IGSTC in 2022. NIT Mizoram is organizing ICMEET 2023 as an International Conference with Springer publishing house for LNEE in October 2023.\n\nAt present NIT Mizoram is situated in a temporary campus at Aizawl. With the support of the state govt, we are expecting the completion of the partially completed permanent campus at Lengpui, Mizoram within the next two years with best of the facilities for the excellent academic ambience.\n\nThe faculty, students and staff of NIT Mizoram are working hard with utmost sincerity and dedication to accept the challenge of making NIT Mizoram a preferred destination for high quality learning, research and innovation. Their new initiatives will surely bear rich fruits during the years to come.</string>
+    <string name="institxt7">NIT Mizoram\nChaltlang, Aizawl-796012\nMizoram, India\nTel/ Fax:0389-2391236 (o) /0389-2391774 / 0389-2391699\nE-Mail : registraroffice@nitmz.ac.in</string>
+    <string name="about">As a 2nd-year student pursuing a Bachelor\'s degree in Computer Science and Engineering from NIT Mizoram,i am passionate about software development and learning new technologies. I have a strong foundation in programming languages such as Java/Kotlin, C/C++ and I am currently enhancing my knowledge of Data Structures and Algorithms.\n\nI am eager to explore new opportunities and connect with like-minded individuals in the tech community. Please feel free to reach out to me if you are interested in collaborating on software development projects or discussing new ideas.</string>
+
+
+    <string name="tnctxt1">Welcome to NITMZ, an Un-Official Android Application crafted exclusively for the students of NIT Mizoram, thoughtfully created by a 2nd Year B.Tech (CSE) student, Vinay Patel. The primary aim of this application is to simplify and enhance the overall student experience at NIT Mizoram by seamlessly consolidating all the necessary requirements and information at one convenient place.\n\nBy accessing or using the NITMZ-App, you agree to comply with and be bound by the following terms and conditions of use. Please read these terms carefully before using the app.</string>
+
+    <string name="tnctxt2">
+    We may collect certain personal information from users to enhance their experience within the app. However, rest assured that we prioritize the security and privacy of your data. For detailed information on how we collect, use, and protect your information, please refer to our Privacy Policy.
+</string>
+
+    <string name="tnctxt3">
+    To access specific features of the app, you may be required to create a user account. You are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account.
+</string>
+
+    <string name="tnctxt4">
+    You agree not to engage in any activity that may disrupt the functionality of the app or compromise the security of other users\' information. Prohibited activities include but are not limited to unauthorized access, data scraping, and any form of malicious behavior.
+</string>
+
+    <string name="tnctxt5">
+    All content and materials available in the NITMZ App are protected by intellectual property laws. You may not reproduce, distribute, or create derivative works without explicit permission from the Developer.
+</string>
+
+    <string name="tnctxt6">
+    The Developer shall not be liable for any direct, indirect, incidental, consequential, or exemplary damages, including but not limited to damages for the loss of profits, data, or other intangible losses resulting from the use or inability to use the app.
+</string>
+
+    <string name="tnctxt7">
+    We may collect personal information, such as your name, email address, and other relevant details, to provide you with a better app experience. Rest assured, we do not knowingly collect information from individuals under the age of 13.
+</string>
+
+    <string name="tnctxt8">
+    The information we collect is utilized to enhance your experience within the app, provide customer support, and improve our services. We do not share your personal information with third parties except as outlined in this policy.
+</string>
+
+    <string name="tnctxt9">
+    The NITMZ App may contain links to third-party websites. Please note that we are not responsible for the content, privacy policies, or practices of these external sites. We strongly encourage you to review their privacy policies before interacting with them.
+</string>
+
+    <string name="tnctxt10">
+    Our services are not intended for individuals under the age of 13. If we discover that we have inadvertently collected personal information from a child under 13, we will promptly delete it.
+</string>
+
+    <string name="tnctxt11">
+    We reserve the right to update our Privacy Policy from time to time. Any changes will be posted on this page, and the effective date will be updated accordingly. Please make it a habit to review this policy periodically for any updates.
+</string>
+
+    <string name="tnctxt12">
+    If you have any questions or suggestions about our Privacy Policy, please feel free to contact us at nitianvinaypatel@gmail.com.
+</string>
+    <string name="admintxt1">"National Institute of Technology, Mizoram\nChaltlang (Dawrkawn)\nAizawl, Mizoram (India) Pin- 796012\nTelefax : 0389-2391699\nEmail_id: director@nitmz.ac.in "</string>
+    <string name="admintxt2">Tel: 0389-2391774 (o)\nFax: 0389-2391774\ne-mail: registrar@nitmz.ac.in</string>
+    <string name="admintxt3">Tel: 0389-2391236 (o)\ne-mail: thiangizote@yahoo.co.in/\ndy.registrar@nitmz.ac.in</string>
+    <string name="admintxt4">(e-mail: asst_registrar@nitmz.ac.in)</string>
+    <string name="admintxt5">Tel: 0389-2391236 (o)\ne-mail: dean_rc@nitmz.ac.in</string>
+    <string name="admintxt6">Tel: 0389-2391236 (o)\ne-mail: dean_sw@nitmz.ac.in</string>
+    <string name="admintxt7">email: dean_pd@nitmz.ac.in</string>
+    <string name="admintxt8">e-mail:tnp@nitmz.ac.in\nnitmztnp@gmail.com\nnitmztnp@yahoo.com\nPhone: 09035385841</string>
+    <string name="games_sports_in_charge"><![CDATA[(Games & Sports In-charge)]]></string>
+
+
+</resources>

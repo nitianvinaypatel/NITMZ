@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group>
+
+                <item
+                    android:id="@+id/clgWebsite"
+                    android:icon="@drawable/globe"
+                    android:title="College Website"/>
+
+        <item
+            android:id="@+id/the_institute"
+            android:icon="@drawable/institute"
+            android:title="The Institute"/>
+
+
+                <item
+                    android:id="@+id/administration"
+                    android:icon="@drawable/administration"
+                    android:title="Administration"/>
+
+        <item
+            android:id="@+id/academic"
+            android:icon="@drawable/blocks"
+            android:title="Academic Blocks"/>
+
+                <item
+                    android:id="@+id/hostels"
+                    android:icon="@drawable/hostel"
+                    android:title="Hostels"/>
+
+
+        <item
+            android:id="@+id/termnC"
+            android:icon="@drawable/tnc"
+            android:title="@string/termsandc"/>
+
+        <item
+            android:id="@+id/rateUs"
+            android:icon="@drawable/rateus"
+            android:title="Rate this App"/>
+
+        <item
+            android:id="@+id/helpNfeedback"
+            android:icon="@drawable/whatsapp"
+            android:title="@string/help_feedback"/>
+
+
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout_white"
+            android:title="Logout"/>
+
+        </group>
+
+</menu>
+

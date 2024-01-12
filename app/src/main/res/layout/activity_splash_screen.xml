@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:theme="@style/AppTheme"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="216dp"
+        android:layout_marginTop="112dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nitmz_logo" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView1"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/andika_new_basic"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/nit_mizoram"
+        android:textColor="@color/darkBlue"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/mizoram"
+        android:textColor="@color/darkBlue"
+        android:textSize="22sp"
+        android:fontFamily="@font/andika_new_basic"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="@+id/textView1"
+        app:layout_constraintStart_toStartOf="@+id/textView1"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/convergence"
+        android:text="@string/developer"
+        android:textColor="@color/darkBlue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.83" />
+
+    <LinearLayout
+        android:textColor="#666666"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/copywrite"
+        android:background="#ffffff"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.example.nitmz.utils.Montserrat_SemiBold
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Powerd By"
+            android:layout_alignParentBottom="true"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textColor="#666666"
+            android:gravity="center|top"
+            android:padding="4dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="-2dp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Codingation"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
