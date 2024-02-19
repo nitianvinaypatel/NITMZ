@@ -14,21 +14,22 @@
         android:layout_height="?attr/actionBarSize"
         android:background="@drawable/rectangle"
         android:orientation="horizontal"
-        android:layout_alignParentTop="true"
         tools:ignore="MissingConstraints">
 
         <ImageButton
             android:id="@+id/backbtn"
-            android:background="@color/darkBlue"
-            android:src="@drawable/backbtn"
-            android:layout_gravity="center"
             android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
             android:layout_marginStart="8dp"
-            android:layout_height="25dp" />
+            android:background="@color/darkBlue"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/backbtn"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
-            android:text="Admin Section"
-            android:textSize="23dp"
+            android:text="@string/admin_section"
+            android:textSize="23sp"
             android:layout_marginStart="10dp"
             android:fontFamily="@font/convergence"
             android:layout_gravity="center"
@@ -45,7 +46,7 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="30dp"
             android:layout_height="wrap_content">
 
             <LinearLayout
@@ -94,7 +95,6 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="match_parent"
-                            android:src="@drawable/ic_gradient_bpink"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"/>
 
@@ -103,15 +103,17 @@
                             android:padding="8dp"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:src="@drawable/notification_icon"/>
+                            android:src="@drawable/notification_icon"
+                            android:contentDescription="@string/todo"
+                            tools:ignore="RtlHardcoded" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
+                        <com.nitmizoram.nitmz.utils.Montserrat_SemiBold
                             android:textSize="18sp"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="Upload\nNotice"
+                            android:text="@string/upload_nnotice"
                             android:textAlignment="textStart"
                             android:layout_marginStart="15dp"/>
                     </androidx.cardview.widget.CardView>
@@ -131,7 +133,7 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="match_parent"
-                            android:src="@drawable/ic_gradient_bred"
+
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"/>
 
@@ -140,15 +142,17 @@
                             android:padding="8dp"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:src="@drawable/bus_icon"/>
+                            android:src="@drawable/bus_icon"
+                            android:contentDescription="@string/todo"
+                            tools:ignore="RtlHardcoded" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
                             android:textSize="18sp"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="Update\nBus Timing"
+                            android:text="@string/update_nbus_timing"
                             android:textAlignment="textStart"
                             android:layout_marginStart="15dp"/>
                     </androidx.cardview.widget.CardView>
@@ -173,7 +177,7 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="match_parent"
-                            android:src="@drawable/ic_gradient_bgreen"
+
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"/>
 
@@ -182,15 +186,17 @@
                             android:padding="8dp"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:src="@drawable/tttttt"/>
+                            android:src="@drawable/tttttt"
+                            android:contentDescription="@string/todo"
+                            tools:ignore="RtlHardcoded" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
                             android:textSize="18sp"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="Update\nTime Table"
+                            android:text="@string/update_ntime_table"
                             android:textAlignment="textStart"
                             android:layout_marginStart="15dp"/>
                     </androidx.cardview.widget.CardView>
@@ -210,7 +216,6 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="match_parent"
-                            android:src="@drawable/ic_gradient_byellow"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"/>
 
@@ -219,15 +224,17 @@
                             android:padding="8dp"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:src="@drawable/menumess"/>
+                            android:src="@drawable/menumess"
+                            android:contentDescription="@string/todo"
+                            tools:ignore="RtlHardcoded" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
                             android:textSize="18sp"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="Update\nMess Menu"
+                            android:text="@string/update_nmess_menu"
                             android:textAlignment="textStart"
                             android:layout_marginStart="15dp"/>
                     </androidx.cardview.widget.CardView>
@@ -239,10 +246,6 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="100dp">
-
-                    <!-- Exams CardView -->
-
-
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/UpdateSyllabus"
@@ -258,7 +261,6 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="match_parent"
-                            android:src="@drawable/ic_gradient_bpurple"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"/>
 
@@ -267,26 +269,21 @@
                             android:padding="8dp"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:src="@drawable/notepad_icon"/>
+                            android:src="@drawable/notepad_icon"
+                            android:contentDescription="@string/todo"
+                            tools:ignore="RtlHardcoded" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
                             android:textSize="18sp"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="Upload\nSyllabus"
+                            android:text="@string/upload_nsyllabus"
                             android:textAlignment="textStart"
                             android:layout_marginStart="15dp"/>
                     </androidx.cardview.widget.CardView>
 
-
-
-
-
-
-
-                    <!-- Assignment CardView -->
                     <androidx.cardview.widget.CardView
                         android:id="@+id/Upload_Notes"
                         android:focusable="true"
@@ -301,7 +298,6 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="match_parent"
-                            android:src="@drawable/ic_gradient_bpink"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"/>
 
@@ -310,15 +306,17 @@
                             android:padding="8dp"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:src="@drawable/read_icon"/>
+                            android:src="@drawable/read_icon"
+                            android:contentDescription="@string/todo"
+                            tools:ignore="RtlHardcoded" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
                             android:textSize="18sp"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="Upload\nNotes"
+                            android:text="@string/upload_nnotes"
                             android:textAlignment="textStart"
                             android:layout_marginStart="15dp"/>
                     </androidx.cardview.widget.CardView>
@@ -343,7 +341,6 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="match_parent"
-                            android:src="@drawable/ic_gradient_bgreen"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"/>
 
@@ -352,15 +349,17 @@
                             android:padding="8dp"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:src="@drawable/pyqs"/>
+                            android:src="@drawable/pyqs"
+                            android:contentDescription="@string/todo"
+                            tools:ignore="RtlHardcoded" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
                             android:textSize="18sp"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="Upload\nPYQs"
+                            android:text="@string/upload_npyqs"
                             android:textAlignment="textStart"
                             android:layout_marginStart="12dp"/>
                     </androidx.cardview.widget.CardView>
@@ -380,7 +379,6 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="match_parent"
-                            android:src="@drawable/ic_gradient_bred"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"/>
 
@@ -389,15 +387,17 @@
                             android:padding="8dp"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:src="@drawable/library"/>
+                            android:src="@drawable/library"
+                            android:contentDescription="@string/todo"
+                            tools:ignore="RtlHardcoded" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
                             android:textSize="18sp"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="Upload\nBooks"
+                            android:text="@string/upload_nbooks"
                             android:textAlignment="textStart"
                             android:layout_marginStart="15dp"/>
                     </androidx.cardview.widget.CardView>
@@ -422,7 +422,6 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="match_parent"
-                            android:src="@drawable/ic_gradient_bgreen"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"/>
 
@@ -431,15 +430,17 @@
                             android:padding="8dp"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:src="@drawable/calendar_ic"/>
+                            android:src="@drawable/calendar_ic"
+                            tools:ignore="RtlHardcoded"
+                            android:contentDescription="@string/todo" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
                             android:textSize="18sp"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="Upload\nCalender"
+                            android:text="@string/upload_ncalender"
                             android:textAlignment="textStart"
                             android:layout_marginStart="12dp"/>
                     </androidx.cardview.widget.CardView>
@@ -458,7 +459,6 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="match_parent"
-                            android:src="@drawable/ic_gradient_bgreen"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"/>
 
@@ -467,15 +467,17 @@
                             android:padding="8dp"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:src="@drawable/faculty"/>
+                            android:src="@drawable/faculty"
+                            android:contentDescription="@string/todo"
+                            tools:ignore="RtlHardcoded" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
                             android:textSize="18sp"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="Add\nFaculty"
+                            android:text="@string/add_nfaculty"
                             android:textAlignment="textStart"
                             android:layout_marginStart="12dp"/>
                     </androidx.cardview.widget.CardView>
@@ -487,7 +489,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="100dp">
 
-                    <!-- Attendance CardView -->
                     <androidx.cardview.widget.CardView
                         android:id="@+id/Add_Events"
                         android:focusable="true"
@@ -502,7 +503,6 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="match_parent"
-                            android:src="@drawable/ic_gradient_bpink"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"/>
 
@@ -511,15 +511,17 @@
                             android:padding="8dp"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:src="@drawable/events"/>
+                            android:src="@drawable/events"
+                            android:contentDescription="@string/todo"
+                            tools:ignore="RtlHardcoded" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
                             android:textSize="18sp"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="Add\nEvents"
+                            android:text="@string/add_nevents"
                             android:textAlignment="textStart"
                             android:layout_marginStart="15dp"/>
                     </androidx.cardview.widget.CardView>
@@ -539,7 +541,6 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="match_parent"
-                            android:src="@drawable/ic_gradient_bred"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"/>
 
@@ -548,15 +549,17 @@
                             android:padding="8dp"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:src="@drawable/staff"/>
+                            android:src="@drawable/staff"
+                            android:contentDescription="@string/todo"
+                            tools:ignore="RtlHardcoded" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
                             android:textSize="18sp"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="Add\nStaff"
+                            android:text="@string/add_nstaff"
                             android:textAlignment="textStart"
                             android:layout_marginStart="15dp"/>
                     </androidx.cardview.widget.CardView>
@@ -566,7 +569,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="100dp">
 
-                    <!-- Attendance CardView -->
                     <androidx.cardview.widget.CardView
                         android:id="@+id/Add_Fees"
                         android:focusable="true"
@@ -581,7 +583,6 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="match_parent"
-                            android:src="@drawable/ic_gradient_bpink"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"/>
 
@@ -590,20 +591,21 @@
                             android:padding="8dp"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:src="@drawable/fees"/>
+                            android:src="@drawable/fees"
+                            android:contentDescription="@string/todo"
+                            tools:ignore="RtlHardcoded" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
                             android:textSize="18sp"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="Upload\nFees"
+                            android:text="@string/upload_nfees"
                             android:textAlignment="textStart"
                             android:layout_marginStart="15dp"/>
                     </androidx.cardview.widget.CardView>
 
-                    <!-- Timetable CardView -->
                     <androidx.cardview.widget.CardView
                         android:id="@+id/Update_society"
                         android:focusable="true"
@@ -618,7 +620,6 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="match_parent"
-                            android:src="@drawable/ic_gradient_bred"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"/>
 
@@ -627,15 +628,17 @@
                             android:padding="8dp"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:src="@drawable/css"/>
+                            android:src="@drawable/css"
+                            android:contentDescription="@string/todo"
+                            tools:ignore="RtlHardcoded" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
                             android:textSize="18sp"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="Update\nSocieties"
+                            android:text="@string/update_nsocieties"
                             android:textAlignment="textStart"
                             android:layout_marginStart="15dp"/>
                     </androidx.cardview.widget.CardView>
@@ -645,8 +648,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="100dp">
 
-
-                    <!-- Timetable CardView -->
                     <androidx.cardview.widget.CardView
                         android:id="@+id/Update_TNP"
                         android:focusable="true"
@@ -661,7 +662,6 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="match_parent"
-                            android:src="@drawable/ic_gradient_bred"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"/>
 
@@ -670,54 +670,22 @@
                             android:padding="8dp"
                             android:layout_width="70dp"
                             android:layout_height="70dp"
-                            android:src="@drawable/tnp_cell"/>
+                            android:src="@drawable/tnp_cell"
+                            android:contentDescription="@string/todo"
+                            tools:ignore="RtlHardcoded" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
                             android:textSize="18sp"
-                            android:textColor="@color/white"
+                            android:textColor="@color/black"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="Update\nTnP Coordinators"
+                            android:text="@string/update_ntnp_coordinators"
                             android:textAlignment="textStart"
                             android:layout_marginStart="15dp"/>
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:textColor="#666666"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:id="@+id/copywrite"
-                android:background="#ffffff"
-                android:padding="7dp"
-                android:layout_marginTop="40dp"
-                android:layout_width="match_parent"
-                android:layout_height="40dp">
-
-                <com.example.nitmz.utils.Montserrat_SemiBold
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:gravity="center"
-                    android:visibility="visible"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Powerd By"
-                    android:layout_alignParentBottom="true"/>
-
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:textColor="#666666"
-                    android:gravity="center|top"
-                    android:padding="4dp"
-                    android:textSize="20sp"
-                    android:layout_marginLeft="-2dp"
-                    android:textStyle="bold"
-                    android:visibility="visible"
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:text="Codingation"/>
             </LinearLayout>
 
 

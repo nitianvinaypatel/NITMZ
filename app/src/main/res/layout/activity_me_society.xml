@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
@@ -14,21 +13,22 @@
         android:layout_height="?attr/actionBarSize"
         android:background="@drawable/rectangle"
         android:orientation="horizontal"
-        android:layout_alignParentTop="true"
         tools:ignore="MissingConstraints">
 
         <ImageButton
             android:id="@+id/backbtn"
-            android:background="@color/darkBlue"
-            android:src="@drawable/backbtn"
-            android:layout_gravity="center"
             android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
             android:layout_marginStart="8dp"
-            android:layout_height="25dp" />
+            android:background="@color/darkBlue"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/backbtn"
+            tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
 
         <TextView
-            android:text="ME Society"
-            android:textSize="23dp"
+            android:text="@string/me_society"
+            android:textSize="23sp"
             android:layout_marginStart="10dp"
             android:fontFamily="@font/convergence"
             android:layout_gravity="center"
@@ -52,12 +52,13 @@
                 android:src="@drawable/me_sty"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:layout_height="200dp"/>
+                android:layout_height="200dp"
+                android:contentDescription="@string/todo" />
 
             <TextView
-                android:text="Welcome to"
+                android:text="@string/welcome_to"
                 android:layout_gravity="center"
-                android:textSize="24dp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:fontFamily="@font/andika_new_basic"
                 android:gravity="center"
@@ -65,9 +66,9 @@
                 android:layout_height="wrap_content"/>
 
             <TextView
-                android:text="Mechanical Engineering Society,"
+                android:text="@string/mechanical_engineering_society"
                 android:layout_gravity="center"
-                android:textSize="24dp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:fontFamily="@font/andika_new_basic"
                 android:gravity="center"
@@ -75,9 +76,9 @@
                 android:layout_height="wrap_content"/>
 
             <TextView
-                android:text="National Institute Of Technology"
+                android:text="@string/national_institute_of_technology"
                 android:layout_gravity="center"
-                android:textSize="24dp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:fontFamily="@font/andika_new_basic"
                 android:gravity="center"
@@ -85,9 +86,9 @@
                 android:layout_height="wrap_content"/>
 
             <TextView
-                android:text="Mizoram"
+                android:text="@string/mizoram"
                 android:layout_gravity="center"
-                android:textSize="24dp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:fontFamily="@font/andika_new_basic"
                 android:gravity="center"
@@ -105,9 +106,9 @@
                 android:layout_height="wrap_content"/>
 
             <TextView
-                android:text="Team @ MES"
+                android:text="@string/team_mes"
                 android:layout_gravity="center"
-                android:textSize="24dp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:fontFamily="@font/andika_new_basic"
                 android:gravity="center"
@@ -122,7 +123,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
             <TextView
-                android:text="President"
+                android:text="@string/president"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -134,9 +135,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/president_name"
-                android:text="(Name)"
+                android:text="@string/name1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -145,9 +146,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/president_rollno"
-                android:text="(Roll No)"
+                android:text="@string/roll_no"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -156,9 +157,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/president_phone"
-                android:text="(Phone)"
+                android:text="@string/phone1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -167,9 +168,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/prEsident_email"
-                android:text="(Email)"
+                android:text="@string/email1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -186,7 +187,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
             <TextView
-                android:text="Secretary"
+                android:text="@string/secretary"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -198,9 +199,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/secretary_name"
-                android:text="(Name)"
+                android:text="@string/name1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -209,9 +210,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/secretary_rollno"
-                android:text="(Roll No)"
+                android:text="@string/roll_no"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -220,9 +221,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/secretary_phone"
-                android:text="(Phone)"
+                android:text="@string/phone1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -231,9 +232,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/secretary_email"
-                android:text="(Email)"
+                android:text="@string/email1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -250,7 +251,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
             <TextView
-                android:text="Technical Head"
+                android:text="@string/technical_head"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -262,9 +263,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/technical_name"
-                android:text="(Name)"
+                android:text="@string/name1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -273,9 +274,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/technical_rollno"
-                android:text="(Roll No)"
+                android:text="@string/roll_no"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -284,9 +285,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/technical_phone"
-                android:text="(Phone)"
+                android:text="@string/phone1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -295,9 +296,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/technical_email"
-                android:text="(Email)"
+                android:text="@string/email1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -314,7 +315,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
             <TextView
-                android:text="Marketing Head"
+                android:text="@string/marketing_head"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -326,9 +327,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/marketing_name"
-                android:text="(Name)"
+                android:text="@string/name1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -337,9 +338,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/marketing_rollno"
-                android:text="(Roll No)"
+                android:text="@string/roll_no"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -348,9 +349,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/marketing_phone"
-                android:text="(Phone)"
+                android:text="@string/phone1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -359,9 +360,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/marketing_email"
-                android:text="(Email)"
+                android:text="@string/email1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -378,7 +379,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
             <TextView
-                android:text="Cultural Head"
+                android:text="@string/cultural_head"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -390,9 +391,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/cultural_name"
-                android:text="(Name)"
+                android:text="@string/name1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -401,9 +402,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/cultural_rollno"
-                android:text="(Roll No)"
+                android:text="@string/roll_no"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -412,9 +413,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/cultural_phone"
-                android:text="(Phone)"
+                android:text="@string/phone1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -423,9 +424,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/cultural_email"
-                android:text="(Email)"
+                android:text="@string/email1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -442,7 +443,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
             <TextView
-                android:text="Event Management Head"
+                android:text="@string/event_management_head"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -454,9 +455,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/event_name"
-                android:text="(Name)"
+                android:text="@string/name1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -465,9 +466,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/event_rollno"
-                android:text="(Roll No)"
+                android:text="@string/roll_no"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -476,9 +477,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/event_phone"
-                android:text="(Phone)"
+                android:text="@string/phone1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -487,9 +488,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/event_email"
-                android:text="(Email)"
+                android:text="@string/email1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -506,7 +507,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
             <TextView
-                android:text="Graphic Designing Head"
+                android:text="@string/graphic_designing_head"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -518,9 +519,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/graphic_name"
-                android:text="(Name)"
+                android:text="@string/name1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -529,9 +530,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/graphic_rollno"
-                android:text="(Roll No)"
+                android:text="@string/roll_no"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -540,9 +541,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/graphic_phone"
-                android:text="(Phone)"
+                android:text="@string/phone1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -551,9 +552,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/graphic_email"
-                android:text="(Email)"
+                android:text="@string/email1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -569,7 +570,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
             <TextView
-                android:text="Content Head"
+                android:text="@string/content_head"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -581,9 +582,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/content_name"
-                android:text="(Name)"
+                android:text="@string/name1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -592,9 +593,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/content_rollno"
-                android:text="(Roll No)"
+                android:text="@string/roll_no"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -603,9 +604,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/content_phone"
-                android:text="(Phone)"
+                android:text="@string/phone1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -614,9 +615,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/content_email"
-                android:text="(Email)"
+                android:text="@string/email1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -632,7 +633,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
             <TextView
-                android:text="Student Coordinator"
+                android:text="@string/student_coordinator"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -644,9 +645,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/student_name"
-                android:text="(Name)"
+                android:text="@string/name1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -655,9 +656,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/student_rollno"
-                android:text="(Roll No)"
+                android:text="@string/roll_no"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -666,9 +667,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/student_phone"
-                android:text="(Phone)"
+                android:text="@string/phone1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -677,9 +678,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:id="@+id/student_email"
-                android:text="(Email)"
+                android:text="@string/email1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:paddingHorizontal="18dp"
@@ -687,42 +688,6 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-
-
-
-            <LinearLayout
-                android:textColor="#666666"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:id="@+id/copywrite"
-                android:background="#ffffff"
-                android:padding="7dp"
-                android:layout_marginTop="40dp"
-                android:layout_width="match_parent"
-                android:layout_height="40dp">
-
-                <com.example.nitmz.utils.Montserrat_SemiBold
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:gravity="center"
-                    android:visibility="visible"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Powerd By"
-                    android:layout_alignParentBottom="true"/>
-
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:textColor="#666666"
-                    android:gravity="center|top"
-                    android:padding="4dp"
-                    android:textSize="20sp"
-                    android:layout_marginLeft="-2dp"
-                    android:textStyle="bold"
-                    android:visibility="visible"
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:text="Codingation"/>
-            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>

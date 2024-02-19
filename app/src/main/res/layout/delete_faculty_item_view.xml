@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_marginTop="3dp"
     android:layout_marginLeft="3dp"
@@ -11,7 +12,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:background="@drawable/ic_gradient_voilet"
+        android:background="@color/darkBlue"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
@@ -26,18 +27,20 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/FImage"
                     android:layout_width="100dp"
-                    android:layout_margin="10dp"
-                    android:layout_gravity="center"
                     android:layout_height="100dp"
-                    android:src="@drawable/user_profile_icon" />
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/user_profile_icon"
+                    tools:ignore="ImageContrastCheck" />
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:orientation="vertical"
                     android:layout_weight="1"
                     android:layout_marginStart="3dp"
@@ -52,7 +55,8 @@
                         android:fontFamily="@font/andika_new_basic"
                         android:textColor="@color/white"
                         android:layout_height="wrap_content"
-                        android:text="Dr. Ashish Singh Patel" />
+                        android:text="@string/dr_ashish_singh_patel"
+                        tools:ignore="RtlHardcoded" />
 
                     <TextView
                         android:id="@+id/FDesignation"
@@ -62,7 +66,8 @@
                         android:fontFamily="@font/andika_new_basic"
                         android:textColor="@color/white"
                         android:layout_height="wrap_content"
-                        android:text="Asosiate professor" />
+                        android:text="@string/asosiate_professor"
+                        tools:ignore="RtlHardcoded" />
                     <TextView
                         android:id="@+id/FBranch"
                         android:layout_width="wrap_content"
@@ -71,7 +76,8 @@
                         android:fontFamily="@font/andika_new_basic"
                         android:textColor="@color/white"
                         android:layout_height="wrap_content"
-                        android:text="Computer Science and Engineering" />
+                        android:text="@string/computer_science_and_engineering"
+                        tools:ignore="RtlHardcoded" />
                     <TextView
                         android:id="@+id/FContact"
                         android:layout_width="wrap_content"
@@ -80,7 +86,8 @@
                         android:fontFamily="@font/andika_new_basic"
                         android:textColor="@color/white"
                         android:layout_height="wrap_content"
-                        android:text="ashish.cse@nitmz.ac.in" />
+                        android:text="@string/ashish_cse_nitmz_ac_in"
+                        tools:ignore="RtlHardcoded" />
 
                 </LinearLayout>
 
@@ -103,31 +110,35 @@
                 android:id="@+id/UpdateBtn"
                 android:layout_width="70dp"
                 android:layout_height="25dp"
-                android:layout_marginRight="5dp"
-                android:fontFamily="@font/convergence"
                 android:layout_gravity="center"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/search_bg"
                 android:clickable="true"
                 android:elevation="5dp"
-                android:background="@drawable/search_bg"
-                android:text="Update"
+                android:focusable="true"
+                android:fontFamily="@font/convergence"
+                android:text="@string/update"
                 android:textColor="@color/black"
                 android:textSize="10sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                tools:ignore="SmallSp,TouchTargetSizeCheck" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/DeleteBtn"
                 android:layout_width="70dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="5dp"
-                android:fontFamily="@font/convergence"
                 android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/search_bg"
                 android:clickable="true"
                 android:elevation="5dp"
-                android:background="@drawable/search_bg"
-                android:text="Delete"
+                android:focusable="true"
+                android:fontFamily="@font/convergence"
+                android:text="@string/delete"
                 android:textColor="@color/black"
                 android:textSize="10sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                tools:ignore="SmallSp,TouchTargetSizeCheck" />
 
         </LinearLayout>
 

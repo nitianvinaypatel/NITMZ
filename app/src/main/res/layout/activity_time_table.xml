@@ -14,28 +14,30 @@
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:background="@drawable/rectangle"
-        android:layout_height="?attr/actionBarSize">
+        android:layout_height="?attr/actionBarSize"
+        android:baselineAligned="false">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="?attr/actionBarSize"
             android:orientation="horizontal"
-            android:layout_alignParentTop="true"
             tools:ignore="MissingConstraints">
 
             <ImageButton
                 android:id="@+id/backbtn"
-                android:background="@color/darkBlue"
-                android:src="@drawable/backbtn"
-                android:layout_gravity="center"
                 android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
                 android:layout_marginStart="8dp"
-                android:layout_height="25dp" />
+                android:background="@color/darkBlue"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/backbtn"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <TextView
-                android:text="Time Table"
-                android:textSize="23dp"
+                android:text="@string/time_table"
+                android:textSize="23sp"
                 android:layout_marginStart="10dp"
                 android:fontFamily="@font/convergence"
                 android:layout_gravity="center"
@@ -48,50 +50,49 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
             android:orientation="vertical"
-            android:layout_marginRight="10dp"
             android:gravity="center"
             android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/courseName"
                 android:layout_width="wrap_content"
-                android:textSize="12sp"
-                android:fontFamily="@font/andika_new_basic"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text=""
-                android:textColor="@color/white" />
+                android:text="@string/course"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
             <TextView
                 android:id="@+id/semesterName"
                 android:layout_width="wrap_content"
-                android:textSize="12sp"
-                android:fontFamily="@font/andika_new_basic"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text=""
+                android:text="@string/semester"
+                android:textSize="10sp"
+                tools:ignore="SmallSp"
                 android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/branchName"
                 android:layout_width="wrap_content"
-                android:textSize="12sp"
-                android:fontFamily="@font/andika_new_basic"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text=""
+                android:textSize="10sp"
+                tools:ignore="SmallSp"
+                android:text="@string/branch"
                 android:textColor="@color/white" />
 
         </LinearLayout>
 
     </LinearLayout>
 
-
-
-    <!-- ViewPager for Mess Menus -->
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPager_tt"
         android:layout_width="match_parent"
@@ -103,12 +104,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
-            app:tabTextColor="@color/black"
-            app:tabSelectedTextColor="@color/red"
+            app:tabGravity="center"
             app:tabIndicatorColor="@color/darkBlue"
             app:tabIndicatorHeight="4dp"
             app:tabMode="scrollable"
-            app:tabGravity="center"/>
+            app:tabSelectedTextColor="@color/red"
+            app:tabTextColor="@color/black"
+            tools:ignore="SpeakableTextPresentCheck" />
     </androidx.viewpager.widget.ViewPager>
 
 

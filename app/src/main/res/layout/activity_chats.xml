@@ -24,17 +24,19 @@
             android:layout_height="25dp"
             android:layout_gravity="center"
             android:layout_marginStart="8dp"
-            android:src="@drawable/backbtn" />
+            android:src="@drawable/backbtn"
+            android:contentDescription="@string/todo" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/chat_other_profileimg"
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:layout_gravity="center"
             android:padding="1dp"
+            android:src="@drawable/user_profile_icon"
             app:civ_border_color="@color/black"
             app:civ_border_width="2dp"
-            android:src="@drawable/user_profile_icon"
-            android:layout_gravity="center"/>
+            tools:ignore="ImageContrastCheck" />
 
 
 
@@ -45,9 +47,9 @@
             android:layout_gravity="center"
             android:layout_marginStart="10dp"
             android:fontFamily="@font/convergence"
-            android:text="Username"
+            android:text="@string/username"
             android:textColor="@color/white"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
     </LinearLayout>
 
 
@@ -66,8 +68,8 @@
         android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="62dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="62dp"
         android:layout_marginBottom="10dp"
         android:background="@color/white"
         android:elevation="3dp"
@@ -84,16 +86,19 @@
 
             <EditText
                 android:id="@+id/messageBox"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:layout_weight="1"
+                android:autofillHints=""
                 android:background="@android:color/transparent"
                 android:ems="10"
+                android:hint="@string/message"
                 android:inputType="text"
+                android:minHeight="48dp"
                 android:padding="8dp"
-                android:hint="Message"
+                android:textColorHint="#757575"
                 android:textSize="15sp" />
 
             <ImageView
@@ -103,7 +108,8 @@
                 android:layout_gravity="center"
                 android:layout_marginEnd="10dp"
                 android:background="@drawable/attachment"
-                android:backgroundTint="#606060" />
+                android:backgroundTint="#606060"
+                android:contentDescription="@string/todo" />
 
             <ImageView
                 android:id="@+id/camera"
@@ -112,7 +118,8 @@
                 android:layout_gravity="center"
                 android:layout_marginEnd="15dp"
                 android:background="@drawable/camera"
-                android:backgroundTint="#606060" />
+                android:backgroundTint="#606060"
+                android:contentDescription="@string/todo" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
@@ -130,5 +137,6 @@
         android:src="@drawable/send"
         app:layout_constraintBottom_toBottomOf="@+id/cardView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/cardView" />
+        app:layout_constraintTop_toTopOf="@+id/cardView"
+        android:contentDescription="@string/todo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

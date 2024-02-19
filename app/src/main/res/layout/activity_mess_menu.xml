@@ -14,39 +14,43 @@
         android:layout_height="?attr/actionBarSize"
         android:background="@drawable/rectangle"
         android:orientation="horizontal"
-        android:layout_alignParentTop="true"
         tools:ignore="MissingConstraints">
 
         <ImageButton
             android:id="@+id/backbtn"
-            android:background="@color/darkBlue"
-            android:src="@drawable/backbtn"
-            android:layout_gravity="center"
             android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
             android:layout_marginStart="8dp"
-            android:layout_height="25dp" />
+            android:layout_weight="0.1"
+            android:background="@color/darkBlue"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/backbtn"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
-            android:text="MessMenu"
-            android:textSize="23dp"
+            android:text="@string/mess_menu"
+            android:textSize="23sp"
             android:layout_marginStart="10dp"
             android:fontFamily="@font/convergence"
             android:layout_gravity="center"
             android:textColor="@color/white"
+            android:layout_weight="0.4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/hostelName"
             android:layout_width="wrap_content"
-            android:layout_marginLeft="100dp"
-            android:textSize="15sp"
+            android:textSize="14sp"
+            android:layout_weight="0.5"
             android:fontFamily="@font/andika_new_basic"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text=""
-            android:textColor="@color/white" />
+            android:text="@string/hostel"
+            android:textColor="@color/white"
+            tools:ignore="SmallSp" />
     </LinearLayout>
 
     <!-- ViewPager for Mess Menus -->
@@ -61,12 +65,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
-            app:tabTextColor="@color/black"
-            app:tabSelectedTextColor="@color/red"
+            app:tabGravity="center"
             app:tabIndicatorColor="@color/darkBlue"
             app:tabIndicatorHeight="4dp"
             app:tabMode="scrollable"
-            app:tabGravity="center"/>
+            app:tabSelectedTextColor="@color/red"
+            app:tabTextColor="@color/black"
+            tools:ignore="SpeakableTextPresentCheck" />
     </androidx.viewpager.widget.ViewPager>
 
     <!-- TabLayout for Tabs -->

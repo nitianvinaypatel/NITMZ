@@ -1,40 +1,22 @@
 {
   "project_info": {
-    "project_number": "45369129882",
-    "project_id": "nit-mizoram",
-    "storage_bucket": "nit-mizoram.appspot.com"
+    "project_number": "917958739566",
+    "firebase_url": "https://nitmz-student-app-default-rtdb.firebaseio.com",
+    "project_id": "nitmz-student-app",
+    "storage_bucket": "nitmz-student-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:45369129882:android:88f1ba841de9a6b2ce5823",
+        "mobilesdk_app_id": "1:917958739566:android:761d527c0b84e1f670087f",
         "android_client_info": {
-          "package_name": "com.example.nitmizoram"
+          "package_name": "com.nitmizoram.nitmz"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBWKnHhpFnJ0RikhD4VbuFQu3m97Y0_NFU"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:45369129882:android:58dfa3faa4988eefce5823",
-        "android_client_info": {
-          "package_name": "com.example.nitmz"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBWKnHhpFnJ0RikhD4VbuFQu3m97Y0_NFU"
+          "current_key": "AIzaSyBrs96VfuCFqaqW5hE7moZuiUo39sgBoeo"
         }
       ],
       "services": {

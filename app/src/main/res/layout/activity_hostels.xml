@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,16 +17,18 @@
 
         <ImageButton
             android:id="@+id/backbtn"
-            android:background="@color/darkBlue"
-            android:src="@drawable/backbtn"
-            android:layout_gravity="center"
             android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
             android:layout_marginStart="8dp"
-            android:layout_height="25dp" />
+            android:background="@color/darkBlue"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/backbtn"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
-            android:text="Hostels"
-            android:textSize="23dp"
+            android:text="@string/hostels"
+            android:textSize="23sp"
             android:layout_marginStart="10dp"
             android:fontFamily="@font/convergence"
             android:layout_gravity="center"
@@ -38,7 +39,7 @@
 
 
     <TextView
-        android:text="No data Available"
+        android:text="@string/no_data_available"
         android:layout_marginTop="300dp"
         android:layout_gravity="center"
         android:gravity="center"

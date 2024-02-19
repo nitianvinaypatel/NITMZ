@@ -14,21 +14,22 @@
         android:layout_height="?attr/actionBarSize"
         android:background="@drawable/rectangle"
         android:orientation="horizontal"
-        android:layout_alignParentTop="true"
         tools:ignore="MissingConstraints">
 
         <ImageButton
             android:id="@+id/backbtn"
-            android:background="@color/darkBlue"
-            android:src="@drawable/backbtn"
-            android:layout_gravity="center"
             android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
             android:layout_marginStart="8dp"
-            android:layout_height="25dp" />
+            android:background="@color/darkBlue"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/backbtn"
+            tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
 
         <TextView
-            android:text="Developer"
-            android:textSize="23dp"
+            android:text="@string/developer"
+            android:textSize="23sp"
             android:layout_marginStart="10dp"
             android:fontFamily="@font/convergence"
             android:layout_gravity="center"
@@ -51,7 +52,8 @@
                 android:layout_width="match_parent"
                 android:layout_marginBottom="30dp"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="200dp"
@@ -63,7 +65,7 @@
                     app:civ_border_color="@color/black"/>
 
                 <TextView
-                    android:text="Vinay Patel"
+                    android:text="@string/vinay_patel"
                     android:textColor="@color/black"
                     android:textSize="30sp"
                     android:textStyle="bold"
@@ -73,7 +75,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
-                <com.example.nitmz.utils.Montserrat_SemiBold
+                <com.nitmizoram.nitmz.utils.Montserrat_SemiBold
                     android:text="@string/about"
                     android:textColor="@color/black"
                     android:textStyle="bold"
@@ -85,7 +87,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:text="Connect with me on:"
+                    android:text="@string/connect_with_me_on"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:layout_marginTop="10dp"
@@ -111,7 +113,8 @@
                         android:clickable="true"
                         android:focusable="true"
                         android:layout_width="0dp"
-                        android:layout_height="53dp"/>
+                        android:layout_height="53dp"
+                        android:contentDescription="@string/todo" />
 
                     <ImageView
                         android:id="@+id/vp_github"
@@ -121,7 +124,8 @@
                         android:focusable="true"
                         android:layout_weight="1"
                         android:layout_width="0dp"
-                        android:layout_height="53dp"/>
+                        android:layout_height="53dp"
+                        android:contentDescription="@string/todo" />
 
                     <ImageView
                         android:id="@+id/vp_insta"
@@ -131,7 +135,8 @@
                         android:focusable="true"
                         android:layout_weight="1"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"/>
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/todo" />
 
                     <ImageView
                         android:id="@+id/vp_fb"
@@ -141,7 +146,8 @@
                         android:focusable="true"
                         android:layout_weight="1"
                         android:layout_width="0dp"
-                        android:layout_height="53dp"/>
+                        android:layout_height="53dp"
+                        android:contentDescription="@string/todo" />
 
                     <ImageView
                         android:id="@+id/vp_x"
@@ -151,12 +157,13 @@
                         android:clickable="true"
                         android:focusable="true"
                         android:layout_width="0dp"
-                        android:layout_height="50dp"/>
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/todo" />
 
                 </LinearLayout>
 
                 <TextView
-                    android:text="Contacts info:"
+                    android:text="@string/contacts_info"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:layout_marginTop="20dp"
@@ -182,17 +189,20 @@
                         android:focusable="true"
                         android:layout_weight="1"
                         android:layout_width="0dp"
-                        android:layout_height="53dp"/>
+                        android:layout_height="53dp"
+                        android:contentDescription="@string/todo" />
 
                     <ImageView
                         android:id="@+id/vp_whatsapp"
-                        android:src="@drawable/whatsapp_ic"
-                        android:layout_gravity="center"
-                        android:clickable="true"
-                        android:focusable="true"
-                        android:layout_weight="1"
                         android:layout_width="0dp"
-                        android:layout_height="60dp"/>
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:contentDescription="@string/todo"
+                        android:focusable="true"
+                        android:src="@drawable/whatsapp_ic"
+                        tools:ignore="ImageContrastCheck" />
 
                     <ImageView
                         android:id="@+id/vp_mail"
@@ -202,7 +212,8 @@
                         android:focusable="true"
                         android:layout_weight="1"
                         android:layout_width="0dp"
-                        android:layout_height="60dp"/>
+                        android:layout_height="60dp"
+                        android:contentDescription="@string/todo" />
 
 
                 </LinearLayout>

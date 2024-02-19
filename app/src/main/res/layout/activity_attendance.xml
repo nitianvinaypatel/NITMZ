@@ -13,21 +13,22 @@
         android:layout_height="?attr/actionBarSize"
         android:background="@drawable/rectangle"
         android:orientation="horizontal"
-        android:layout_alignParentTop="true"
         tools:ignore="MissingConstraints">
 
         <ImageButton
             android:id="@+id/backbtn"
-            android:background="@color/darkBlue"
-            android:src="@drawable/backbtn"
-            android:layout_gravity="center"
             android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
             android:layout_marginStart="8dp"
-            android:layout_height="25dp" />
+            android:background="@color/darkBlue"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/backbtn"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
-            android:text="Attendance"
-            android:textSize="23dp"
+            android:text="@string/attendance"
+            android:textSize="23sp"
             android:layout_marginStart="10dp"
             android:fontFamily="@font/convergence"
             android:layout_gravity="center"
@@ -37,7 +38,7 @@
     </LinearLayout>
 
     <TextView
-        android:text="this feature is not availabe yet, we are working on Faculty App, soon it will be here\n Stay tuned.."
+        android:text="@string/this_feature_is_not_availabe_yet_we_are_working_on_faculty_app_soon_it_will_be_here_n_stay_tuned"
         android:layout_width="match_parent"
         android:padding="10dp"
         android:textSize="20sp"

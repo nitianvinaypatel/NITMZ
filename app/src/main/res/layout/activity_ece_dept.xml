@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
@@ -14,21 +13,22 @@
         android:layout_height="?attr/actionBarSize"
         android:background="@drawable/rectangle"
         android:orientation="horizontal"
-        android:layout_alignParentTop="true"
         tools:ignore="MissingConstraints">
 
         <ImageButton
             android:id="@+id/backbtn"
-            android:background="@color/darkBlue"
-            android:src="@drawable/backbtn"
-            android:layout_gravity="center"
             android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
             android:layout_marginStart="8dp"
-            android:layout_height="25dp" />
+            android:background="@color/darkBlue"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/backbtn"
+            tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
 
         <TextView
-            android:text="ECE Department"
-            android:textSize="23dp"
+            android:text="@string/ece_department"
+            android:textSize="23sp"
             android:layout_marginStart="10dp"
             android:fontFamily="@font/convergence"
             android:layout_gravity="center"
@@ -52,12 +52,13 @@
                 android:src="@drawable/ece_dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:layout_height="200dp"/>
+                android:layout_height="200dp"
+                android:contentDescription="@string/todo" />
 
             <TextView
-                android:text="Welcome to the Department of"
+                android:text="@string/welcome_to_the_department_of"
                 android:layout_gravity="center"
-                android:textSize="22dp"
+                android:textSize="22sp"
                 android:textStyle="bold"
                 android:fontFamily="@font/andika_new_basic"
                 android:gravity="center"
@@ -67,7 +68,7 @@
             <TextView
                 android:text="@string/electronics_communication_engineering"
                 android:layout_gravity="center"
-                android:textSize="23dp"
+                android:textSize="23sp"
                 android:textStyle="bold"
                 android:fontFamily="@font/andika_new_basic"
                 android:gravity="center"
@@ -75,9 +76,9 @@
                 android:layout_height="wrap_content"/>
 
             <TextView
-                android:text="National Institute Of Technology"
+                android:text="@string/national_institute_of_technology"
                 android:layout_gravity="center"
-                android:textSize="24dp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:fontFamily="@font/andika_new_basic"
                 android:gravity="center"
@@ -85,9 +86,9 @@
                 android:layout_height="wrap_content"/>
 
             <TextView
-                android:text="Mizoram"
+                android:text="@string/mizoram"
                 android:layout_gravity="center"
-                android:textSize="24dp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:fontFamily="@font/andika_new_basic"
                 android:gravity="center"
@@ -105,9 +106,9 @@
                 android:layout_height="wrap_content"/>
 
             <TextView
-                android:text="Faculties @ ECE Department"
+                android:text="@string/faculties_ece_department"
                 android:layout_gravity="center"
-                android:textSize="24dp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:fontFamily="@font/andika_new_basic"
                 android:gravity="center"
@@ -121,7 +122,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
             <TextView
-                android:text="Dr. Rudra Sankar Dhar"
+                android:text="@string/dr_rudra_sankar_dhar"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -133,7 +134,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:text="@string/ecef1"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
@@ -149,7 +150,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
             <TextView
-                android:text="Dr. Chaitali Koley"
+                android:text="@string/dr_chaitali_koley"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -161,7 +162,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:text="@string/ecef2"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
@@ -177,7 +178,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
             <TextView
-                android:text="Dr. Anumoy Ghosh"
+                android:text="@string/dr_anumoy_ghosh"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -189,7 +190,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:text="@string/ecef3"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
@@ -205,7 +206,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
             <TextView
-                android:text="Dr. Sushanta Bordoloi"
+                android:text="@string/dr_sushanta_bordoloi"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -217,7 +218,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:text="@string/ecef4"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
@@ -234,7 +235,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
             <TextView
-                android:text="Dr. K. Vanlalawmpuia"
+                android:text="@string/dr_k_vanlalawmpuia"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -245,7 +246,7 @@
                 android:paddingHorizontal="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:text="@string/ecef5"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
@@ -261,7 +262,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
             <TextView
-                android:text="Dr. Pragati Singh"
+                android:text="@string/dr_pragati_singh"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -272,7 +273,7 @@
                 android:paddingHorizontal="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:text="@string/ecef6"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
@@ -289,7 +290,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"/>
             <TextView
-                android:text="Dr. Remika Ngangbam"
+                android:text="@string/dr_remika_ngangbam"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -300,7 +301,7 @@
                 android:paddingHorizontal="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:text="@string/ecef7"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
@@ -310,39 +311,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <LinearLayout
-                android:textColor="#666666"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:id="@+id/copywrite"
-                android:background="#ffffff"
-                android:padding="7dp"
-                android:layout_marginTop="40dp"
-                android:layout_width="match_parent"
-                android:layout_height="40dp">
-
-                <com.example.nitmz.utils.Montserrat_SemiBold
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:gravity="center"
-                    android:visibility="visible"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Powerd By"
-                    android:layout_alignParentBottom="true"/>
-
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:textColor="#666666"
-                    android:gravity="center|top"
-                    android:padding="4dp"
-                    android:textSize="20sp"
-                    android:layout_marginLeft="-2dp"
-                    android:textStyle="bold"
-                    android:visibility="visible"
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:text="Codingation"/>
-            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>

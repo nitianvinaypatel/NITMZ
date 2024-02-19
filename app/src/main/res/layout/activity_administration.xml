@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
@@ -18,16 +17,18 @@
 
         <ImageButton
             android:id="@+id/backbtn"
-            android:background="@color/darkBlue"
-            android:src="@drawable/backbtn"
-            android:layout_gravity="center"
             android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
             android:layout_marginStart="8dp"
-            android:layout_height="25dp" />
+            android:background="@color/darkBlue"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/backbtn"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <TextView
-            android:text="NITMZ Administration"
-            android:textSize="23dp"
+            android:text="@string/nitmz_administration"
+            android:textSize="23sp"
             android:layout_marginStart="10dp"
             android:fontFamily="@font/convergence"
             android:layout_gravity="center"
@@ -52,7 +53,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"/>
             <TextView
-                android:text="Prof. S. Sundar"
+                android:text="@string/prof_s_sundar"
                 android:textSize="25sp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -61,7 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:text="(Director)"
+                android:text="@string/director"
                 android:textSize="18sp"
                 android:layout_marginTop="-12dp"
                 android:layout_gravity="center"
@@ -69,7 +70,7 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:text="@string/admintxt1"
                 android:layout_gravity="center"
                 android:gravity="center"
@@ -82,7 +83,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"/>
             <TextView
-                android:text="Prof. Ajmal Koya Pulikkal"
+                android:text="@string/prof_ajmal_koya_pulikkal"
                 android:textSize="25sp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -91,7 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:text="(Registrar i/c)"
+                android:text="@string/registrar_i_c"
                 android:textSize="18sp"
                 android:layout_marginTop="-12dp"
                 android:layout_gravity="center"
@@ -99,7 +100,7 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:text="@string/admintxt2"
                 android:layout_gravity="center"
                 android:gravity="center"
@@ -113,7 +114,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"/>
             <TextView
-                android:text="Ms Lalthianghlimi Zote"
+                android:text="@string/ms_lalthianghlimi_zote"
                 android:textSize="25sp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -122,7 +123,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:text="(Deputy Registrar)"
+                android:text="@string/deputy_registrar"
                 android:textSize="18sp"
                 android:layout_marginTop="-12dp"
                 android:layout_gravity="center"
@@ -130,7 +131,7 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:text="@string/admintxt3"
                 android:layout_gravity="center"
                 android:gravity="center"
@@ -144,7 +145,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"/>
             <TextView
-                android:text="Dr. Lalhruaitluangi"
+                android:text="@string/dr_lalhruaitluangi"
                 android:textSize="25sp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -153,7 +154,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:text="(Assistant Registrar)"
+                android:text="@string/assistant_registrar"
                 android:textSize="18sp"
                 android:layout_marginTop="-12dp"
                 android:layout_gravity="center"
@@ -161,7 +162,7 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:text="@string/admintxt4"
                 android:layout_gravity="center"
                 android:gravity="center"
@@ -174,7 +175,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"/>
             <TextView
-                android:text="Dr. Rudra Sankar Dhar"
+                android:text="@string/dr_rudra_sankar_dhar"
                 android:textSize="25sp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -183,7 +184,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:text="Dean (Academics)"
+                android:text="@string/dean_academics"
                 android:textSize="18sp"
                 android:layout_marginTop="-12dp"
                 android:layout_gravity="center"
@@ -191,8 +192,8 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
-                android:text="e-mail: dean_acad@nitmz.ac.in"
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
+                android:text="@string/e_mail_dean_acad_nitmz_ac_in"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:layout_width="match_parent"
@@ -205,7 +206,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"/>
             <TextView
-                android:text="Prof. Saibal Chatterjee"
+                android:text="@string/prof_saibal_chatterjee"
                 android:textSize="25sp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -214,7 +215,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:text="Dean (Research and Consultancy)"
+                android:text="@string/dean_research_and_consultancy"
                 android:textSize="18sp"
                 android:layout_marginTop="-12dp"
                 android:layout_gravity="center"
@@ -222,7 +223,7 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:text="@string/admintxt5"
                 android:layout_gravity="center"
                 android:gravity="center"
@@ -236,7 +237,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"/>
             <TextView
-                android:text="Dr. K. Gyanendra Singh"
+                android:text="@string/dr_k_gyanendra_singh"
                 android:textSize="25sp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -245,7 +246,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:text="Dean (Students' Welfare)"
+                android:text="@string/dean_students_welfare"
                 android:textSize="18sp"
                 android:layout_marginTop="-12dp"
                 android:layout_gravity="center"
@@ -253,7 +254,7 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:text="@string/admintxt6"
                 android:layout_gravity="center"
                 android:gravity="center"
@@ -267,7 +268,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"/>
             <TextView
-                android:text="Prof. Ajmal Koya Pulikkal"
+                android:text="@string/prof_ajmal_koya_pulikkal"
                 android:textSize="25sp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -276,7 +277,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:text="Dean (Faculty Welfare)"
+                android:text="@string/dean_faculty_welfare"
                 android:textSize="18sp"
                 android:layout_marginTop="-12dp"
                 android:layout_gravity="center"
@@ -284,8 +285,8 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
-                android:text="e-mail: dean_fw@nitmz.ac.in"
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
+                android:text="@string/e_mail_dean_fw_nitmz_ac_in"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:layout_width="match_parent"
@@ -298,7 +299,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"/>
             <TextView
-                android:text="Dr.Bijayananda Mohanty"
+                android:text="@string/dr_bijayananda_mohanty"
                 android:textSize="25sp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -307,7 +308,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:text="Dean (Planning and Development)"
+                android:text="@string/dean_planning_and_development"
                 android:textSize="18sp"
                 android:layout_marginTop="-12dp"
                 android:layout_gravity="center"
@@ -315,7 +316,7 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:text="@string/admintxt7"
                 android:layout_gravity="center"
                 android:gravity="center"
@@ -330,7 +331,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"/>
             <TextView
-                android:text="Dr. Anumoy Ghosh"
+                android:text="@string/dr_anumoy_ghosh"
                 android:textSize="25sp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -339,7 +340,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:text="(Examination Incharge)"
+                android:text="@string/examination_incharge"
                 android:textSize="18sp"
                 android:layout_marginTop="-12dp"
                 android:layout_gravity="center"
@@ -347,8 +348,8 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
-                android:text="e-mail: examination@nitmz.ac.in"
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
+                android:text="@string/e_mail_examination_nitmz_ac_in"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:layout_width="match_parent"
@@ -360,7 +361,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"/>
             <TextView
-                android:text="Dr. Anagha Bhattachrya"
+                android:text="@string/dr_anagha_bhattachrya"
                 android:textSize="25sp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -369,7 +370,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:text="(Examination Incharge)"
+                android:text="@string/examination_incharge"
                 android:textSize="18sp"
                 android:layout_marginTop="-12dp"
                 android:layout_gravity="center"
@@ -377,8 +378,8 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
-                android:text="e-mail: examination@nitmz.ac.in"
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
+                android:text="@string/e_mail_examination_nitmz_ac_in"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:layout_width="match_parent"
@@ -390,7 +391,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"/>
             <TextView
-                android:text="Dr. Sukanta Roy"
+                android:text="@string/dr_sukanta_roy"
                 android:textSize="25sp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -399,7 +400,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:text="(TnP Incharge)"
+                android:text="@string/tnp_incharge"
                 android:textSize="18sp"
                 android:layout_marginTop="-12dp"
                 android:layout_gravity="center"
@@ -407,7 +408,7 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
                 android:text="@string/admintxt8"
                 android:layout_gravity="center"
                 android:gravity="center"
@@ -420,7 +421,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"/>
             <TextView
-                android:text="Dr. Saurav Suman"
+                android:text="@string/dr_saurav_suman"
                 android:textSize="25sp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -437,8 +438,8 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
-                android:text="e-mail:game_sport_activity@nitmz.ac.in"
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
+                android:text="@string/e_mail_game_sport_activity_nitmz_ac_in"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:layout_width="match_parent"
@@ -450,7 +451,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"/>
             <TextView
-                android:text=" Dr. Ricky Lalthazuala"
+                android:text="@string/dr_ricky_lalthazuala"
                 android:textSize="25sp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -467,8 +468,8 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
-                android:text="e-mail:game_sport_activity@nitmz.ac.in "
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
+                android:text="@string/e_mail_game_sport_activity_nitmz_ac_in"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:layout_width="match_parent"
@@ -480,7 +481,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"/>
             <TextView
-                android:text="Dr. Lenin Laitonjam"
+                android:text="@string/dr_lenin_laitonjam"
                 android:textSize="25sp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -489,7 +490,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:text="(Scholarship Incharge)"
+                android:text="@string/scholarship_incharge"
                 android:textSize="18sp"
                 android:layout_marginTop="-12dp"
                 android:layout_gravity="center"
@@ -497,8 +498,8 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
-                android:text="e-mail: scholarship@nitmz.ac.in"
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
+                android:text="@string/e_mail_scholarship_nitmz_ac_in"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:layout_width="match_parent"
@@ -511,7 +512,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="280dp"/>
             <TextView
-                android:text=" Dr. Saurav Suman"
+                android:text="@string/dr_saurav_suman"
                 android:textSize="25sp"
                 android:layout_margin="10dp"
                 android:textStyle="bold"
@@ -520,7 +521,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:text="(Assistant Faculty In-charge)"
+                android:text="@string/assistant_faculty_in_charge"
                 android:textSize="18sp"
                 android:layout_marginTop="-12dp"
                 android:layout_gravity="center"
@@ -528,8 +529,8 @@
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            <com.example.nitmz.utils.Montserrat_Regular
-                android:text="e-mail: scholarship@nitmz.ac.in"
+            <com.nitmizoram.nitmz.utils.Montserrat_Regular
+                android:text="@string/e_mail_scholarship_nitmz_ac_in"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:layout_width="match_parent"

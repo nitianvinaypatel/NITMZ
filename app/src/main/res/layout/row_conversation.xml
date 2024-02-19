@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -7,7 +8,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
 
         <View
             android:layout_width="match_parent"
@@ -20,15 +22,15 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="80dp"
             android:layout_marginHorizontal="5dp"
             android:elevation="2dp"
             android:orientation="horizontal">
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/user_pic"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_gravity="center"
                 android:src="@drawable/user_profile_icon"
                 android:layout_margin="5dp"/>
@@ -50,10 +52,10 @@
                         android:id="@+id/user_name_text"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="Vinay Patel"
+                        android:text="@string/vinay_patel"
                         android:fontFamily="@font/convergence"
                         android:layout_weight="1"
-                        android:textSize="20sp"
+                        android:textSize="16sp"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
 
@@ -61,21 +63,23 @@
                         android:id="@+id/user_time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="06:00 AM"
+                        android:text="@string/_06_00_am"
                         android:layout_gravity="right"
                         android:layout_marginEnd="10dp"
-                        android:textSize="12sp"
+                        android:textSize="10sp"
                         android:textColor="@color/black"
-                        android:gravity="right"/>
+                        android:gravity="right"
+                        tools:ignore="RtlHardcoded,SmallSp" />
                 </LinearLayout>
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tap to chat"
-                    android:textSize="13sp"
-                    android:id="@+id/last_text"/>
+                    android:text="@string/tap_to_chat"
+                    android:textSize="10sp"
+                    android:id="@+id/last_text"
+                    tools:ignore="SmallSp" />
 
             </LinearLayout>
 

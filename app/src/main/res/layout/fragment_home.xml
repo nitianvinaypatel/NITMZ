@@ -10,7 +10,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scrollbars="none">
+        android:scrollbars="none"
+        tools:ignore="UselessParent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -61,12 +62,15 @@
                     android:layout_height="match_parent"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
 
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.25"
+                        android:layout_gravity="center"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <!-- Timetable CardView -->
@@ -75,6 +79,7 @@
                             android:layout_width="90dp"
                             android:layout_height="90dp"
                             android:clickable="true"
+                            android:layout_gravity="center"
                             android:focusable="true"
                             android:foreground="?android:attr/selectableItemBackground"
                             app:cardCornerRadius="8dp"
@@ -88,14 +93,15 @@
                                 android:layout_marginTop="5dp"
                                 android:src="@drawable/tttttt" />
 
-                            <com.example.nitmz.utils.Montserrat_Medium
-                                android:layout_width="wrap_content"
+                            <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                                android:layout_width="match_parent"
+                                android:gravity="center"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="12dp"
-                                android:text="Time Table"
+                                android:text="@string/time_table"
                                 android:textColor="@color/black"
-                                android:textSize="13sp"
+                                android:textSize="12sp"
                                 android:textStyle="bold" />
 
 
@@ -108,12 +114,15 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.25"
+                        android:layout_gravity="center"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <!-- Timetable CardView -->
                         <androidx.cardview.widget.CardView
                             android:id="@+id/messMenuCV"
                             android:layout_width="90dp"
+                            android:layout_gravity="center"
                             android:layout_height="90dp"
                             android:clickable="true"
                             android:focusable="true"
@@ -129,14 +138,15 @@
                                 android:layout_marginTop="5dp"
                                 android:src="@drawable/menumess" />
 
-                            <com.example.nitmz.utils.Montserrat_Medium
-                                android:layout_width="wrap_content"
+                            <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:gravity="center"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="12dp"
-                                android:text="Mess Menu"
+                                android:text="@string/mess_menu"
                                 android:textColor="@color/black"
-                                android:textSize="13sp"
+                                android:textSize="12sp"
                                 android:textStyle="bold" />
 
 
@@ -149,12 +159,15 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.25"
+                        android:layout_gravity="center"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <!-- Timetable CardView -->
                         <androidx.cardview.widget.CardView
                             android:id="@+id/nitBusesCV"
                             android:layout_width="90dp"
+                            android:layout_gravity="center"
                             android:layout_height="90dp"
                             android:clickable="true"
                             android:focusable="true"
@@ -170,14 +183,15 @@
                                 android:layout_marginTop="5dp"
                                 android:src="@drawable/bus_icon" />
 
-                            <com.example.nitmz.utils.Montserrat_Medium
-                                android:layout_width="wrap_content"
+                            <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="12dp"
-                                android:text="NIT Buses"
+                                android:gravity="center"
+                                android:text="@string/nit_buses"
                                 android:textColor="@color/black"
-                                android:textSize="13sp"
+                                android:textSize="12sp"
                                 android:textStyle="bold" />
 
 
@@ -190,6 +204,8 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.25"
+                        android:layout_gravity="center"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <!-- Timetable CardView -->
@@ -198,6 +214,7 @@
                             android:layout_width="90dp"
                             android:layout_height="90dp"
                             android:clickable="true"
+                            android:layout_gravity="center"
                             android:focusable="true"
                             android:foreground="?android:attr/selectableItemBackground"
                             app:cardCornerRadius="8dp"
@@ -206,19 +223,21 @@
 
                             <androidx.appcompat.widget.AppCompatImageView
                                 android:layout_width="50dp"
-                                android:layout_height="50dp"
+                                android:layout_height="55dp"
                                 android:layout_gravity="center|top"
                                 android:layout_marginTop="5dp"
                                 android:src="@drawable/web_icon" />
 
-                            <com.example.nitmz.utils.Montserrat_Medium
-                                android:layout_width="wrap_content"
+
+                            <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="12dp"
-                                android:text="ERP Link"
+                                android:text="@string/erp_link"
+                                android:gravity="center"
                                 android:textColor="@color/black"
-                                android:textSize="13sp"
+                                android:textSize="12sp"
                                 android:textStyle="bold" />
 
 
@@ -234,12 +253,15 @@
                     android:layout_height="match_parent"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
 
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.25"
+                        android:layout_gravity="center"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <!-- Timetable CardView -->
@@ -247,6 +269,7 @@
                             android:id="@+id/notesCV"
                             android:layout_width="90dp"
                             android:layout_height="90dp"
+                            android:layout_gravity="center"
                             android:clickable="true"
                             android:focusable="true"
                             android:foreground="?android:attr/selectableItemBackground"
@@ -261,14 +284,15 @@
                                 android:layout_marginTop="5dp"
                                 android:src="@drawable/read_icon" />
 
-                            <com.example.nitmz.utils.Montserrat_Medium
-                                android:layout_width="wrap_content"
+                            <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="12dp"
-                                android:text="Notes"
+                                android:gravity="center"
+                                android:text="@string/notes"
                                 android:textColor="@color/black"
-                                android:textSize="13sp"
+                                android:textSize="12sp"
                                 android:textStyle="bold" />
 
 
@@ -281,6 +305,8 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.25"
+                        android:layout_gravity="center"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <!-- Timetable CardView -->
@@ -289,6 +315,7 @@
                             android:layout_width="90dp"
                             android:layout_height="90dp"
                             android:clickable="true"
+                            android:layout_gravity="center"
                             android:focusable="true"
                             android:foreground="?android:attr/selectableItemBackground"
                             app:cardCornerRadius="8dp"
@@ -302,14 +329,15 @@
                                 android:layout_marginTop="5dp"
                                 android:src="@drawable/notepad_icon" />
 
-                            <com.example.nitmz.utils.Montserrat_Medium
-                                android:layout_width="wrap_content"
+                            <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="12dp"
-                                android:text="Syllabus"
+                                android:gravity="center"
+                                android:text="@string/syllabus"
                                 android:textColor="@color/black"
-                                android:textSize="13sp"
+                                android:textSize="12sp"
                                 android:textStyle="bold" />
 
 
@@ -322,6 +350,8 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.25"
+                        android:layout_gravity="center"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <!-- Timetable CardView -->
@@ -329,6 +359,7 @@
                             android:id="@+id/pyqsCV"
                             android:layout_width="90dp"
                             android:layout_height="90dp"
+                            android:layout_gravity="center"
                             android:clickable="true"
                             android:focusable="true"
                             android:foreground="?android:attr/selectableItemBackground"
@@ -343,15 +374,16 @@
                                 android:layout_marginTop="5dp"
                                 android:src="@drawable/pyqs" />
 
-                            <com.example.nitmz.utils.Montserrat_Medium
-                                android:layout_width="wrap_content"
+                            <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="12dp"
+                                android:gravity="center"
                                 android:textStyle="bold"
-                                android:text="PYQ`s"
+                                android:text="@string/pyq_s"
                                 android:textColor="@color/black"
-                                android:textSize="13sp" />
+                                android:textSize="12sp" />
 
 
                         </androidx.cardview.widget.CardView>
@@ -363,6 +395,8 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.25"
+                        android:layout_gravity="center"
+                        android:gravity="center"
                         android:orientation="vertical">
 
                         <!-- Attandance CardView -->
@@ -370,6 +404,7 @@
                             android:id="@+id/attendanceCV"
                             android:layout_width="90dp"
                             android:layout_height="90dp"
+                            android:layout_gravity="center"
                             android:clickable="true"
                             android:focusable="true"
                             android:foreground="?android:attr/selectableItemBackground"
@@ -384,15 +419,16 @@
                                 android:layout_gravity="center|top"
                                 android:src="@drawable/attendance" />
 
-                            <com.example.nitmz.utils.Montserrat_Medium
-                                android:layout_width="wrap_content"
+                            <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="12dp"
+                                android:gravity="center"
                                 android:textStyle="bold"
-                                android:text="Attendance"
+                                android:text="@string/attendance"
                                 android:textColor="@color/black"
-                                android:textSize="13sp" />
+                                android:textSize="12sp" />
 
 
                         </androidx.cardview.widget.CardView>
@@ -407,7 +443,8 @@
                     android:layout_height="match_parent"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -420,6 +457,7 @@
                             android:id="@+id/libraryCV"
                             android:layout_width="90dp"
                             android:layout_height="90dp"
+                            android:layout_gravity="center"
                             android:clickable="true"
                             android:focusable="true"
                             android:foreground="?android:attr/selectableItemBackground"
@@ -434,15 +472,16 @@
                                 android:layout_gravity="center|top"
                                 android:src="@drawable/library" />
 
-                            <com.example.nitmz.utils.Montserrat_Medium
-                                android:layout_width="wrap_content"
+                            <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="12dp"
+                                android:gravity="center"
                                 android:textStyle="bold"
-                                android:text="Library"
+                                android:text="@string/library"
                                 android:textColor="@color/black"
-                                android:textSize="13sp" />
+                                android:textSize="12sp" />
 
 
                         </androidx.cardview.widget.CardView>
@@ -463,6 +502,7 @@
                             android:layout_width="90dp"
                             android:layout_height="90dp"
                             android:clickable="true"
+                            android:layout_gravity="center"
                             android:focusable="true"
                             android:foreground="?android:attr/selectableItemBackground"
                             app:cardCornerRadius="8dp"
@@ -476,15 +516,16 @@
                                 android:layout_gravity="center|top"
                                 android:src="@drawable/fees" />
 
-                            <com.example.nitmz.utils.Montserrat_Medium
-                                android:layout_width="wrap_content"
+                            <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="12dp"
+                                android:gravity="center"
                                 android:textStyle="bold"
-                                android:text="Fees"
+                                android:text="@string/fees"
                                 android:textColor="@color/black"
-                                android:textSize="13sp" />
+                                android:textSize="12sp" />
 
 
                         </androidx.cardview.widget.CardView>
@@ -506,6 +547,7 @@
                             android:layout_height="90dp"
                             android:clickable="true"
                             android:focusable="true"
+                            android:layout_gravity="center"
                             android:foreground="?android:attr/selectableItemBackground"
                             app:cardCornerRadius="8dp"
                             app:cardElevation="4dp"
@@ -518,15 +560,16 @@
                                 android:layout_gravity="center|top"
                                 android:src="@drawable/calendar_ic" />
 
-                            <com.example.nitmz.utils.Montserrat_Medium
-                                android:layout_width="wrap_content"
+                            <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="12dp"
                                 android:textStyle="bold"
-                                android:text="Calender"
+                                android:gravity="center"
+                                android:text="@string/calender"
                                 android:textColor="@color/black"
-                                android:textSize="13sp" />
+                                android:textSize="12sp" />
 
 
                         </androidx.cardview.widget.CardView>
@@ -545,29 +588,32 @@
                             android:id="@+id/assignmentCV"
                             android:layout_width="90dp"
                             android:layout_height="90dp"
+                            android:layout_gravity="center"
                             android:clickable="true"
                             android:focusable="true"
                             android:foreground="?android:attr/selectableItemBackground"
                             app:cardCornerRadius="8dp"
                             app:cardElevation="4dp"
-                            app:cardUseCompatPadding="true">
+                            app:cardUseCompatPadding="true"
+                            tools:ignore="TextSizeCheck">
 
                             <androidx.appcompat.widget.AppCompatImageView
                                 android:layout_width="50dp"
-                                android:layout_marginTop="5dp"
                                 android:layout_height="50dp"
                                 android:layout_gravity="center|top"
+                                android:layout_marginTop="5dp"
                                 android:src="@drawable/assingment" />
 
-                            <com.example.nitmz.utils.Montserrat_Medium
-                                android:layout_width="wrap_content"
+                            <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="12dp"
-                                android:textStyle="bold"
-                                android:text="Assignment"
+                                android:gravity="center"
+                                android:text="@string/assignment"
                                 android:textColor="@color/black"
-                                android:textSize="13sp" />
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
 
 
                         </androidx.cardview.widget.CardView>
@@ -582,7 +628,8 @@
                     android:layout_height="match_parent"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
 
 
 
@@ -599,6 +646,7 @@
                             android:layout_width="90dp"
                             android:layout_height="90dp"
                             android:clickable="true"
+                            android:layout_gravity="center"
                             android:focusable="true"
                             android:foreground="?android:attr/selectableItemBackground"
                             app:cardCornerRadius="8dp"
@@ -612,15 +660,16 @@
                                 android:layout_marginTop="5dp"
                                 android:src="@drawable/faculty" />
 
-                            <com.example.nitmz.utils.Montserrat_Medium
-                                android:layout_width="wrap_content"
+                            <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="12dp"
+                                android:gravity="center"
                                 android:textStyle="bold"
-                                android:text="Faculty"
+                                android:text="@string/faculty"
                                 android:textColor="@color/black"
-                                android:textSize="13sp" />
+                                android:textSize="12sp" />
 
 
                         </androidx.cardview.widget.CardView>
@@ -640,6 +689,7 @@
                             android:layout_width="90dp"
                             android:layout_height="90dp"
                             android:clickable="true"
+                            android:layout_gravity="center"
                             android:focusable="true"
                             android:foreground="?android:attr/selectableItemBackground"
                             app:cardCornerRadius="8dp"
@@ -653,15 +703,16 @@
                                 android:layout_marginTop="5dp"
                                 android:src="@drawable/staff" />
 
-                            <com.example.nitmz.utils.Montserrat_Medium
-                                android:layout_width="wrap_content"
+                            <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="12dp"
                                 android:textStyle="bold"
-                                android:text="Staff"
+                                android:gravity="center"
+                                android:text="@string/staff"
                                 android:textColor="@color/black"
-                                android:textSize="13sp" />
+                                android:textSize="12sp" />
 
 
                         </androidx.cardview.widget.CardView>
@@ -679,6 +730,7 @@
                         <androidx.cardview.widget.CardView
                             android:id="@+id/tnpcellCV"
                             android:layout_width="90dp"
+                            android:layout_gravity="center"
                             android:layout_height="90dp"
                             android:clickable="true"
                             android:focusable="true"
@@ -694,15 +746,16 @@
                                 android:layout_gravity="center|top"
                                 android:src="@drawable/tnp_cell" />
 
-                            <com.example.nitmz.utils.Montserrat_Medium
-                                android:layout_width="wrap_content"
+                            <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="12dp"
                                 android:textStyle="bold"
-                                android:text="TnP Cell"
+                                android:gravity="center"
+                                android:text="@string/tnp_cell"
                                 android:textColor="@color/black"
-                                android:textSize="13sp" />
+                                android:textSize="12sp" />
 
 
                         </androidx.cardview.widget.CardView>
@@ -721,6 +774,7 @@
                             android:id="@+id/eventsCV"
                             android:layout_width="90dp"
                             android:layout_height="90dp"
+                            android:layout_gravity="center"
                             android:clickable="true"
                             android:focusable="true"
                             android:foreground="?android:attr/selectableItemBackground"
@@ -735,15 +789,16 @@
                                 android:layout_gravity="center|top"
                                 android:src="@drawable/events" />
 
-                            <com.example.nitmz.utils.Montserrat_Medium
-                                android:layout_width="wrap_content"
+                            <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal|bottom"
                                 android:layout_marginTop="12dp"
                                 android:textStyle="bold"
-                                android:text="Events"
+                                android:text="@string/events"
+                                android:gravity="center"
                                 android:textColor="@color/black"
-                                android:textSize="13sp" />
+                                android:textSize="12sp" />
 
 
                         </androidx.cardview.widget.CardView>
@@ -784,7 +839,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:baselineAligned="false">
 
 
 
@@ -793,7 +849,8 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.25"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    tools:ignore="TooManyViews">
 
                     <!-- Timetable CardView -->
                     <androidx.cardview.widget.CardView
@@ -801,6 +858,7 @@
                         android:layout_width="90dp"
                         android:layout_height="90dp"
                         android:clickable="true"
+                        android:layout_gravity="center"
                         android:focusable="true"
                         android:foreground="?android:attr/selectableItemBackground"
                         app:cardCornerRadius="8dp"
@@ -814,15 +872,16 @@
                             android:layout_marginTop="5dp"
                             android:src="@drawable/cse_dp" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
-                            android:layout_width="wrap_content"
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal|bottom"
                             android:layout_marginTop="12dp"
                             android:textStyle="bold"
-                            android:text="CSE"
+                            android:gravity="center"
+                            android:text="@string/cse"
                             android:textColor="@color/black"
-                            android:textSize="13sp" />
+                            android:textSize="12sp" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -842,6 +901,7 @@
                         android:layout_width="90dp"
                         android:layout_height="90dp"
                         android:clickable="true"
+                        android:layout_gravity="center"
                         android:focusable="true"
                         android:foreground="?android:attr/selectableItemBackground"
                         app:cardCornerRadius="8dp"
@@ -855,15 +915,16 @@
                             android:layout_marginTop="5dp"
                             android:src="@drawable/electrical_dp" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
-                            android:layout_width="wrap_content"
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal|bottom"
                             android:layout_marginTop="12dp"
+                            android:gravity="center"
                             android:textStyle="bold"
-                            android:text="EE"
+                            android:text="@string/ee"
                             android:textColor="@color/black"
-                            android:textSize="13sp" />
+                            android:textSize="12sp" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -882,29 +943,32 @@
                         android:id="@+id/ECEdpCV"
                         android:layout_width="90dp"
                         android:layout_height="90dp"
+                        android:layout_gravity="center"
                         android:clickable="true"
                         android:focusable="true"
                         android:foreground="?android:attr/selectableItemBackground"
                         app:cardCornerRadius="8dp"
                         app:cardElevation="4dp"
-                        app:cardUseCompatPadding="true">
+                        app:cardUseCompatPadding="true"
+                        tools:ignore="DuplicateSpeakableTextCheck">
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:layout_marginTop="5dp"
                             android:layout_gravity="center|top"
+                            android:layout_marginTop="5dp"
                             android:src="@drawable/ece_dp" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
-                            android:layout_width="wrap_content"
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal|bottom"
                             android:layout_marginTop="12dp"
-                            android:textStyle="bold"
-                            android:text="ECE"
+                            android:gravity="center"
+                            android:text="@string/ece"
                             android:textColor="@color/black"
-                            android:textSize="13sp" />
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -924,6 +988,7 @@
                         android:layout_width="90dp"
                         android:layout_height="90dp"
                         android:clickable="true"
+                        android:layout_gravity="center"
                         android:focusable="true"
                         android:foreground="?android:attr/selectableItemBackground"
                         app:cardCornerRadius="8dp"
@@ -937,15 +1002,16 @@
                             android:layout_gravity="center|top"
                             android:src="@drawable/me_dp" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
-                            android:layout_width="wrap_content"
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal|bottom"
                             android:layout_marginTop="12dp"
                             android:textStyle="bold"
-                            android:text="ME"
+                            android:gravity="center"
+                            android:text="@string/me"
                             android:textColor="@color/black"
-                            android:textSize="13sp" />
+                            android:textSize="12sp" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -961,7 +1027,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:baselineAligned="false">
 
 
 
@@ -979,6 +1046,7 @@
                         android:layout_height="90dp"
                         android:clickable="true"
                         android:focusable="true"
+                        android:layout_gravity="center"
                         android:foreground="?android:attr/selectableItemBackground"
                         app:cardCornerRadius="8dp"
                         app:cardElevation="4dp"
@@ -991,15 +1059,16 @@
                             android:layout_marginTop="5dp"
                             android:src="@drawable/civil_dp" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
-                            android:layout_width="wrap_content"
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal|bottom"
                             android:layout_marginTop="12dp"
+                            android:gravity="center"
                             android:textStyle="bold"
-                            android:text="CE"
+                            android:text="@string/ce"
                             android:textColor="@color/black"
-                            android:textSize="13sp" />
+                            android:textSize="12sp" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -1019,6 +1088,7 @@
                         android:layout_width="90dp"
                         android:layout_height="90dp"
                         android:clickable="true"
+                        android:layout_gravity="center"
                         android:focusable="true"
                         android:foreground="?android:attr/selectableItemBackground"
                         app:cardCornerRadius="8dp"
@@ -1032,15 +1102,16 @@
                             android:layout_marginTop="5dp"
                             android:src="@drawable/maths" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
-                            android:layout_width="wrap_content"
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal|bottom"
                             android:layout_marginTop="12dp"
+                            android:gravity="center"
                             android:textStyle="bold"
-                            android:text="Maths"
+                            android:text="@string/maths"
                             android:textColor="@color/black"
-                            android:textSize="13sp" />
+                            android:textSize="12sp" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -1059,6 +1130,7 @@
                         android:id="@+id/physicsCV"
                         android:layout_width="90dp"
                         android:layout_height="90dp"
+                        android:layout_gravity="center"
                         android:clickable="true"
                         android:focusable="true"
                         android:foreground="?android:attr/selectableItemBackground"
@@ -1073,15 +1145,16 @@
                             android:layout_gravity="center|top"
                             android:src="@drawable/physics" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
-                            android:layout_width="wrap_content"
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal|bottom"
                             android:layout_marginTop="12dp"
                             android:textStyle="bold"
-                            android:text="Physics"
+                            android:text="@string/physics"
+                            android:gravity="center"
                             android:textColor="@color/black"
-                            android:textSize="13sp" />
+                            android:textSize="12sp" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -1100,6 +1173,7 @@
                         android:id="@+id/chemistryCV"
                         android:layout_width="90dp"
                         android:layout_height="90dp"
+                        android:layout_gravity="center"
                         android:clickable="true"
                         android:focusable="true"
                         android:foreground="?android:attr/selectableItemBackground"
@@ -1115,15 +1189,16 @@
                             android:layout_gravity="center|top"
                             android:src="@drawable/labs" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
-                            android:layout_width="wrap_content"
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal|bottom"
                             android:layout_marginTop="12dp"
                             android:textStyle="bold"
-                            android:text="Chemistry"
+                            android:gravity="center"
+                            android:text="@string/chemistry"
                             android:textColor="@color/black"
-                            android:textSize="13sp" />
+                            android:textSize="12sp" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -1162,7 +1237,8 @@
                 android:gravity="center"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:baselineAligned="false">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -1176,6 +1252,7 @@
                         android:layout_width="90dp"
                         android:layout_height="90dp"
                         android:clickable="true"
+                        android:layout_gravity="center"
                         android:focusable="true"
                         android:foreground="?android:attr/selectableItemBackground"
                         app:cardCornerRadius="8dp"
@@ -1189,15 +1266,16 @@
                             android:layout_gravity="center|top"
                             android:src="@drawable/css" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
-                            android:layout_width="wrap_content"
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal|bottom"
                             android:layout_marginTop="12dp"
                             android:textStyle="bold"
-                            android:text="CSS"
+                            android:text="@string/css"
+                            android:gravity="center"
                             android:textColor="@color/black"
-                            android:textSize="13sp" />
+                            android:textSize="12sp" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -1220,6 +1298,7 @@
                         android:layout_height="90dp"
                         android:clickable="true"
                         android:focusable="true"
+                        android:layout_gravity="center"
                         android:foreground="?android:attr/selectableItemBackground"
                         app:cardCornerRadius="8dp"
                         app:cardElevation="4dp"
@@ -1232,15 +1311,16 @@
                             android:layout_marginTop="5dp"
                             android:src="@drawable/eee" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
-                            android:layout_width="wrap_content"
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal|bottom"
                             android:layout_marginTop="12dp"
+                            android:gravity="center"
                             android:textStyle="bold"
-                            android:text="EES"
+                            android:text="@string/ees"
                             android:textColor="@color/black"
-                            android:textSize="13sp" />
+                            android:textSize="12sp" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -1259,6 +1339,7 @@
                         android:id="@+id/eceCV"
                         android:layout_width="90dp"
                         android:layout_height="90dp"
+                        android:layout_gravity="center"
                         android:clickable="true"
                         android:focusable="true"
                         android:foreground="?android:attr/selectableItemBackground"
@@ -1273,15 +1354,16 @@
                             android:layout_marginTop="5dp"
                             android:src="@drawable/ece_lg" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
-                            android:layout_width="wrap_content"
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal|bottom"
                             android:layout_marginTop="12dp"
                             android:textStyle="bold"
-                            android:text="ECE"
+                            android:text="@string/ece"
+                            android:gravity="center"
                             android:textColor="@color/black"
-                            android:textSize="13sp" />
+                            android:textSize="12sp" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -1301,6 +1383,7 @@
                         android:layout_width="90dp"
                         android:layout_height="90dp"
                         android:clickable="true"
+                        android:layout_gravity="center"
                         android:focusable="true"
                         android:foreground="?android:attr/selectableItemBackground"
                         app:cardCornerRadius="8dp"
@@ -1314,15 +1397,16 @@
                             android:layout_gravity="center|top"
                             android:src="@drawable/me_sty" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
-                            android:layout_width="wrap_content"
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal|bottom"
                             android:layout_marginTop="12dp"
                             android:textStyle="bold"
-                            android:text="MES"
+                            android:gravity="center"
+                            android:text="@string/me_s"
                             android:textColor="@color/black"
-                            android:textSize="13sp" />
+                            android:textSize="12sp" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -1359,7 +1443,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:baselineAligned="false">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -1373,6 +1458,7 @@
                         android:layout_width="90dp"
                         android:layout_height="90dp"
                         android:clickable="true"
+                        android:layout_gravity="center"
                         android:focusable="true"
                         android:foreground="?android:attr/selectableItemBackground"
                         app:cardCornerRadius="8dp"
@@ -1386,15 +1472,16 @@
                             android:layout_gravity="center|top"
                             android:src="@drawable/anunaad" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
-                            android:layout_width="wrap_content"
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal|bottom"
                             android:layout_marginTop="12dp"
                             android:textStyle="bold"
-                            android:text="Anunaad"
+                            android:gravity="center"
+                            android:text="@string/anunaad"
                             android:textColor="@color/black"
-                            android:textSize="13sp" />
+                            android:textSize="12sp" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -1411,6 +1498,7 @@
                     <!-- Timetable CardView -->
                     <androidx.cardview.widget.CardView
                         android:id="@+id/morphosisCV"
+                        android:layout_gravity="center"
                         android:layout_width="90dp"
                         android:layout_height="90dp"
                         android:clickable="true"
@@ -1427,15 +1515,16 @@
                             android:layout_gravity="center|top"
                             android:src="@drawable/morphis" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
-                            android:layout_width="wrap_content"
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal|bottom"
                             android:layout_marginTop="12dp"
                             android:textStyle="bold"
-                            android:text="Morphosis"
+                            android:text="@string/morphosis"
+                            android:gravity="center"
                             android:textColor="@color/black"
-                            android:textSize="13sp" />
+                            android:textSize="12sp" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -1456,6 +1545,7 @@
                         android:layout_height="90dp"
                         android:clickable="true"
                         android:focusable="true"
+                        android:layout_gravity="center"
                         android:foreground="?android:attr/selectableItemBackground"
                         app:cardCornerRadius="8dp"
                         app:cardElevation="4dp"
@@ -1468,15 +1558,16 @@
                             android:layout_marginTop="5dp"
                             android:src="@drawable/drishti" />
 
-                        <com.example.nitmz.utils.Montserrat_Medium
-                            android:layout_width="wrap_content"
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal|bottom"
                             android:layout_marginTop="12dp"
                             android:textStyle="bold"
-                            android:text="Drishti"
+                            android:text="@string/drishti"
+                            android:gravity="center"
                             android:textColor="@color/black"
-                            android:textSize="13sp" />
+                            android:textSize="12sp" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -1496,6 +1587,7 @@
                         android:layout_width="90dp"
                         android:layout_height="90dp"
                         android:clickable="true"
+                        android:layout_gravity="center"
                         android:focusable="true"
                         android:foreground="?android:attr/selectableItemBackground"
                         app:cardCornerRadius="8dp"
@@ -1509,15 +1601,16 @@
                             android:layout_gravity="center|top"
                             android:src="@drawable/shaurya"/>
 
-                        <com.example.nitmz.utils.Montserrat_Medium
-                            android:layout_width="wrap_content"
+                        <com.nitmizoram.nitmz.utils.Montserrat_Medium
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal|bottom"
                             android:layout_marginTop="12dp"
                             android:textStyle="bold"
-                            android:text="Shaurya"
+                            android:gravity="center"
+                            android:text="@string/shaurya"
                             android:textColor="@color/black"
-                            android:textSize="13sp" />
+                            android:textSize="12sp" />
 
 
                     </androidx.cardview.widget.CardView>
@@ -1545,7 +1638,7 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="280dp"
+                    android:layout_width="300dp"
                     android:layout_height="250dp"
                     android:layout_marginTop="10dp"
                     app:cardElevation="1dp"
@@ -1579,6 +1672,28 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:text="@string/view_all"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="match_parent"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkBlue"
+                    android:fontFamily="@font/andika_new_basic"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    tools:ignore="RtlHardcoded" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
                     android:text="@string/past_recruiters"
                     android:layout_width="match_parent"
                     android:textSize="18sp"
@@ -1593,7 +1708,6 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="350dp"
                     android:layout_height="150dp"
-                    android:layout_marginBottom="20dp"
                     android:layout_marginTop="10dp"
                     app:cardElevation="1dp"
                     android:focusable="true"
@@ -1610,6 +1724,29 @@
                         app:iss_text_align="CENTER"/>
 
                 </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/view_all"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="match_parent"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkBlue"
+                    android:fontFamily="@font/andika_new_basic"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    tools:ignore="RtlHardcoded" />
+
 
             </LinearLayout>
 

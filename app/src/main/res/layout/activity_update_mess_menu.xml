@@ -15,28 +15,30 @@
         android:orientation="horizontal"
         android:background="@drawable/rectangle"
         android:layout_height="?attr/actionBarSize"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        android:baselineAligned="false">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="?attr/actionBarSize"
             android:orientation="horizontal"
-            android:layout_alignParentTop="true"
             tools:ignore="MissingConstraints">
 
             <ImageButton
                 android:id="@+id/backbtn"
-                android:background="@color/darkBlue"
-                android:src="@drawable/backbtn"
-                android:layout_gravity="center"
                 android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
                 android:layout_marginStart="8dp"
-                android:layout_height="25dp" />
+                android:background="@color/darkBlue"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/backbtn"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <TextView
-                android:text="Update Mess Menu"
-                android:textSize="23dp"
+                android:text="@string/update_mess_menu"
+                android:textSize="23sp"
                 android:layout_marginStart="10dp"
                 android:fontFamily="@font/convergence"
                 android:layout_gravity="center"
@@ -50,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -88,7 +90,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:textSize="16sp"
-                android:text="Note:"
+                android:text="@string/note"
                 android:layout_marginHorizontal="10dp"
                 android:layout_gravity="center"
                 android:textStyle="bold"
@@ -127,7 +129,8 @@
                     android:textSize="20sp"
                     android:fontFamily="@font/convergence"
                     android:inputType="none"
-                    android:text="Select the Day" />
+                    android:text="@string/select_the_day"
+                    tools:ignore="LabelFor" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -153,9 +156,10 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:textSize="20sp"
-                        android:gravity="center"
-                        android:hint="Breakfast"
-                        android:inputType="text|textPersonName" />
+                        android:gravity="start"
+                        android:lines="2"
+                        android:hint="@string/breakfast_"
+                        android:inputType="text|textPersonName|textMultiLine" />
                 </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -180,11 +184,12 @@
                         android:fontFamily="@font/convergence"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:hint="@string/lunch_"
                         android:layout_gravity="center"
                         android:textSize="20sp"
-                        android:gravity="center"
-                        android:hint="Lunch"
-                        android:inputType="text|textPersonName" />
+                        android:gravity="start"
+                        android:lines="2"
+                        android:inputType="text|textPersonName|textMultiLine" />
                 </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -211,9 +216,10 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:textSize="20sp"
-                        android:gravity="center"
-                        android:hint="Snacks"
-                        android:inputType="text|textPersonName" />
+                        android:gravity="start"
+                        android:lines="2"
+                        android:inputType="text|textPersonName|textMultiLine"
+                        android:hint="@string/snacks_" />
                 </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -239,10 +245,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:gravity="start"
                         android:textSize="20sp"
-                        android:gravity="center"
-                        android:hint="Dinner"
-                        android:inputType="text|textPersonName" />
+                        android:lines="2"
+                        android:inputType="text|textPersonName|textMultiLine"
+                        android:hint="@string/dinner_"/>
                 </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -263,55 +270,18 @@
                 android:id="@+id/Update_mm_btn"
                 android:layout_width="250dp"
                 android:layout_height="58dp"
-                android:layout_marginBottom="40dp"
+                android:layout_marginBottom="120dp"
                 android:layout_marginTop="50dp"
                 android:fontFamily="@font/convergence"
                 android:layout_gravity="center"
                 android:clickable="true"
                 android:elevation="5dp"
                 android:background="@drawable/getstartedbtn"
-                android:text="Update"
+                android:text="@string/update"
                 android:textColor="@color/white"
                 android:textSize="20sp"
-                android:textStyle="bold"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:background="#ffffff"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:padding="7dp"
-                android:textColor="#666666"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
-
-                <com.example.nitmz.utils.Montserrat_SemiBold
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:gravity="center"
-                    android:text="Powerd By"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:visibility="visible" />
-
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:layout_marginLeft="-2dp"
-                    android:gravity="center|top"
-                    android:padding="4dp"
-                    android:text="Codingation"
-                    android:textColor="#666666"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:visibility="visible" />
-            </LinearLayout>
-
-
+                android:textStyle="bold"
+                android:focusable="true" />
 
         </LinearLayout>
 

@@ -68,68 +68,49 @@
                     android:layout_height="match_parent"
                     android:orientation="horizontal">
 
-                    <!-- Existing title -->
                     <TextView
                         android:id="@+id/toolbar_title"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="Dashboard"
                         android:fontFamily="@font/convergence"
-                        android:textSize="25sp"
-                        android:textStyle="bold"
+                        android:gravity="start|center_vertical"
+                        android:text="@string/dashboard"
                         android:textColor="@color/white"
-                        android:gravity="start|center_vertical"/>
-
-
-                    <!-- Admin text (initially invisible) -->
-
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_width="wrap_content"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:layout_marginEnd="20dp"
-                        android:layout_height="wrap_content">
-
-                        <ImageView
-                            android:id="@+id/search"
-                            android:layout_width="20dp"
-                            android:focusable="true"
-                            android:clickable="true"
-                            android:layout_gravity="center"
-                            android:src="@drawable/search"
-                            android:layout_height="20dp"/>
-
-
-                    </LinearLayout>
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:ignore="TextContrastCheck" />
 
                     <LinearLayout
                         android:id="@+id/adminWork"
-                        android:orientation="vertical"
-                        android:layout_width="30dp"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
                         android:layout_gravity="center"
-                        android:focusable="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="5dp"
                         android:clickable="true"
-                        android:layout_marginTop="3dp"
-                        android:layout_marginEnd="10dp"
-                        android:layout_height="36dp">
+                        android:focusable="true"
+                        android:orientation="vertical"
+                        tools:ignore="TextSizeCheck,TouchTargetSizeCheck">
 
                         <ImageView
                             android:layout_width="20dp"
+                            android:layout_height="20dp"
                             android:layout_gravity="center"
+                            android:contentDescription="@string/todo"
                             android:focusable="true"
                             android:src="@drawable/admin"
-                            android:layout_height="20dp"/>
+                            tools:ignore="ImageContrastCheck" />
 
                         <TextView
-                            android:text="Admin"
-                            android:textSize="10sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:focusable="true"
+                            android:text="@string/admin"
                             android:textColor="@color/white"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:textSize="10sp"
+                            tools:ignore="SmallSp,TextContrastCheck" />
 
                     </LinearLayout>
 
@@ -155,11 +136,12 @@
         android:background="@color/white"
         app:headerLayout="@layout/nav_header"
         app:itemIconTint="@color/darkBlue"
-        app:menu="@menu/navigation_drawer_menu">
+        app:menu="@menu/navigation_drawer_menu"
+        tools:ignore="TextSizeCheck">
 
 
         <LinearLayout
-            android:id="@+id/developer"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
@@ -169,49 +151,17 @@
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/convergence"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/andika_new_basic"
                 android:gravity="center"
-                android:textStyle="bold"
-                android:text="@string/developer"
+                android:text="@string/developedBy"
                 android:textColor="@color/darkBlue"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:textStyle="bold" />
 
-            <LinearLayout
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_alignParentBottom="true"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
-
-                <com.example.nitmz.utils.Montserrat_SemiBold
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:gravity="center"
-                    android:visibility="visible"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Powerd By"
-                    android:layout_alignParentBottom="true"/>
-
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:textColor="#666666"
-                    android:gravity="center|top"
-                    android:padding="4dp"
-                    android:textSize="16sp"
-                    android:layout_marginLeft="-2dp"
-                    android:textStyle="bold"
-                    android:visibility="visible"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Codingation"/>
-            </LinearLayout>
 
         </LinearLayout>
-
 
 
     </com.google.android.material.navigation.NavigationView>

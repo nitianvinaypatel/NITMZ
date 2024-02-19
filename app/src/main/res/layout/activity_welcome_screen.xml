@@ -1,50 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@color/white"
-    android:padding="8dp"
-    android:layout_gravity="center"
-    android:gravity="center"
-    android:layout_height="wrap_content"
+    android:orientation="vertical"
     android:theme="@style/AppTheme"
-    tools:context=".WelcomeScreen"
-    android:orientation="vertical">
+    tools:context=".WelcomeScreen">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scrollbars="none">
+        android:orientation="vertical"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
 
-        <RelativeLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentStart="true"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
                 android:fontFamily="@font/bungee"
-                android:gravity="left"
+                android:gravity="center"
                 android:text="@string/manage_neverything_non_your_phone"
                 android:textColor="@color/darkBlue"
-                android:textSize="40sp"
-                android:textStyle="bold" />
+                android:textSize="36sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlHardcoded,TextSizeCheck" />
 
             <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/lottieAnimationView"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3"
                 app:lottie_autoPlay="true"
-                android:layout_marginTop="20dp"
-                android:layout_below="@id/textView3"
                 app:lottie_loop="true"
                 app:lottie_rawRes="@raw/welcome"
                 tools:ignore="MissingConstraints" />
@@ -53,82 +56,50 @@
                 android:id="@+id/getstarted"
                 android:layout_width="250dp"
                 android:layout_height="60dp"
-                android:layout_below="@id/lottieAnimationView"
-                android:layout_centerHorizontal="true"
                 android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="100dp"
-                android:layout_marginEnd="30dp"
-                android:layout_marginBottom="30dp"
+                android:layout_marginTop="88dp"
                 android:background="@drawable/getstartedbtn"
                 android:gravity="center"
                 android:text="@string/get_started"
                 android:textColor="@color/white"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView" />
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:layout_below="@id/getstarted"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="40dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginTop="68dp"
                 android:gravity="center"
                 android:text="@string/tnc"
-                android:textColor="@color/darkBlue" />
+                android:textColor="@color/darkBlue"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/getstarted" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:layout_below="@id/textView"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="30dp"
                 android:gravity="center"
                 android:text="@string/privacy"
-                android:textColor="#DD2C00" />
+                android:textColor="#DD2C00"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:layout_constraintVertical_bias="0.0" />
 
-            <LinearLayout
-                android:id="@+id/copywrite"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#ffffff"
-                android:layout_below="@id/textView2"
-                android:gravity="center"
-                android:layout_alignParentBottom="true"
-                android:orientation="horizontal"
-                android:textColor="#666666">
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
-                <com.example.nitmz.utils.Montserrat_SemiBold
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="@string/powerd_by"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:visibility="visible" />
-
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:layout_marginStart="-2dp"
-                    android:gravity="center|top"
-                    android:padding="4dp"
-                    android:text="@string/codingation"
-                    android:textColor="#666666"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:visibility="visible"
-                    tools:ignore="TextSizeCheck" />
-
-            </LinearLayout>
-
-        </RelativeLayout>
     </ScrollView>
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

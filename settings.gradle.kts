@@ -15,5 +15,5 @@ pluginManagement {
 //    }
 //}
 
-rootProject.name = "NITMZ"
+rootProject.name = "NITMZ Student App"
 include(":app")

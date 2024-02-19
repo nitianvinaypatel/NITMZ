@@ -8,11 +8,11 @@
     <TextView
         android:layout_gravity="center"
         android:gravity="center"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:fontFamily="@font/convergence"
         android:layout_width="match_parent"
         android:background="@color/statusBarColor"
         android:layout_height="match_parent"
-        android:text="Calls" />
+        android:text="@string/calls" />
 
 </FrameLayout>

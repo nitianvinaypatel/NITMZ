@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_marginTop="3dp"
     android:layout_marginLeft="3dp"
@@ -10,7 +11,7 @@
         android:id="@+id/linearLayout"
         android:focusable="true"
         android:clickable="true"
-        android:background="@drawable/ic_gradient_voilet"
+        android:background="@color/darkBlue"
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="wrap_content">
@@ -23,10 +24,11 @@
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/SenderImage"
                 android:layout_width="50dp"
-                android:layout_margin="10dp"
-                android:layout_gravity="center"
                 android:layout_height="50dp"
-                android:src="@drawable/user_profile_icon" />
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/user_profile_icon"
+                tools:ignore="ImageContrastCheck" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -43,7 +45,8 @@
                     android:fontFamily="@font/andika_new_basic"
                     android:textColor="@color/white"
                     android:layout_height="wrap_content"
-                    android:text="Data Structures" />
+                    android:text="@string/data_structures"
+                    tools:ignore="RtlHardcoded" />
 
                 <TextView
                     android:id="@+id/SenderRollNo"
@@ -53,7 +56,8 @@
                     android:fontFamily="@font/andika_new_basic"
                     android:textColor="@color/white"
                     android:layout_height="wrap_content"
-                    android:text="Data Structures" />
+                    android:text="@string/data_structures"
+                    tools:ignore="RtlHardcoded,SmallSp" />
 
             </LinearLayout>
 
@@ -74,7 +78,8 @@
                     android:fontFamily="@font/andika_new_basic"
                     android:textColor="@color/white"
                     android:layout_height="wrap_content"
-                    android:text="Time" />
+                    android:text="@string/time_"
+                    tools:ignore="RtlHardcoded" />
 
                 <TextView
                     android:id="@+id/Date"
@@ -84,7 +89,8 @@
                     android:fontFamily="@font/andika_new_basic"
                     android:textColor="@color/white"
                     android:layout_height="wrap_content"
-                    android:text="Date" />
+                    android:text="@string/date"
+                    tools:ignore="RtlHardcoded,SmallSp" />
 
             </LinearLayout>
 
@@ -104,7 +110,7 @@
             <TextView
                 android:id="@+id/message_box"
                 android:textColor="@color/white"
-                android:text="Message...."
+                android:text="@string/message"
                 android:layout_width="match_parent"
                 android:layout_marginHorizontal="10dp"
                 android:layout_height="wrap_content"/>
@@ -128,7 +134,8 @@
                 android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:scaleType="fitXY"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:contentDescription="@string/todo" />
         </LinearLayout>
 
 

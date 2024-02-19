@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="5dp"
@@ -20,7 +21,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_gradient_bred"
+            android:background="@color/darkBlue"
             android:orientation="vertical"
             android:paddingTop="16dp"
             android:paddingLeft="16dp"
@@ -34,36 +35,39 @@
 
                 <TextView
                     android:layout_width="70dp"
+                    android:layout_height="25dp"
                     android:layout_gravity="left"
                     android:gravity="left"
-                    android:layout_height="25dp"
-                    android:text="Bus No:"
-                    android:textStyle="bold"
+                    android:text="@string/bus_no"
                     android:textColor="@color/white"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlHardcoded,TextSizeCheck" />
 
                 <TextView
                     android:id="@+id/busNo"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="25dp"
                     android:layout_gravity="center"
+                    android:layout_weight="1"
                     android:gravity="left"
-                    android:text="10"
-                    android:textStyle="bold"
+                    android:text="@string/_10"
                     android:textColor="@color/white"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlHardcoded,TextSizeCheck" />
 
                 <TextView
                     android:id="@+id/hostelName"
-                    android:layout_gravity="right"
                     android:layout_width="130dp"
                     android:layout_height="25dp"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"
+                    android:layout_gravity="right"
                     android:gravity="right"
+                    android:text="@string/boys_hostel_1"
+                    android:textColor="@color/white"
                     android:textSize="18sp"
-                    android:text="Boy`s Hostel-1" />
+                    android:textStyle="bold"
+                    tools:ignore="RtlHardcoded,TextSizeCheck" />
 
             </LinearLayout>
 
@@ -75,8 +79,8 @@
                 android:textStyle="bold"
                 android:gravity="center"
                 android:layout_height="wrap_content"
-                android:textSize="50dp"
-                android:text="08:20 AM" />
+                android:textSize="50sp"
+                android:text="@string/_08_20_am" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -94,7 +98,8 @@
                     android:gravity="left"
                     android:textSize="18sp"
                     android:layout_height="wrap_content"
-                    android:text="Hostel" />
+                    android:text="@string/hostel"
+                    tools:ignore="RtlHardcoded" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -106,7 +111,7 @@
                     android:gravity="center"
                     android:textSize="18sp"
                     android:layout_height="wrap_content"
-                    android:text="-" />
+                    android:text="@string/us" />
 
                 <TextView
                     android:id="@+id/to"
@@ -119,7 +124,8 @@
                     android:gravity="right"
                     android:textSize="18sp"
                     android:layout_height="wrap_content"
-                    android:text="College" />
+                    android:text="@string/college"
+                    tools:ignore="RtlHardcoded" />
 
             </LinearLayout>
             <LinearLayout
@@ -133,31 +139,35 @@
                     android:id="@+id/UpdateBtn"
                     android:layout_width="70dp"
                     android:layout_height="25dp"
-                    android:layout_marginRight="5dp"
-                    android:fontFamily="@font/convergence"
                     android:layout_gravity="center"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/search_bg"
                     android:clickable="true"
                     android:elevation="5dp"
-                    android:background="@drawable/search_bg"
-                    android:text="Update"
+                    android:focusable="true"
+                    android:fontFamily="@font/convergence"
+                    android:text="@string/update"
                     android:textColor="@color/black"
                     android:textSize="10sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    tools:ignore="SmallSp,TouchTargetSizeCheck" />
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/DeleteBtn"
                     android:layout_width="70dp"
                     android:layout_height="25dp"
-                    android:layout_marginLeft="5dp"
-                    android:fontFamily="@font/convergence"
                     android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/search_bg"
                     android:clickable="true"
                     android:elevation="5dp"
-                    android:background="@drawable/search_bg"
-                    android:text="Delete"
+                    android:focusable="true"
+                    android:fontFamily="@font/convergence"
+                    android:text="@string/delete"
                     android:textColor="@color/black"
                     android:textSize="10sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    tools:ignore="SmallSp,TouchTargetSizeCheck" />
 
             </LinearLayout>
 

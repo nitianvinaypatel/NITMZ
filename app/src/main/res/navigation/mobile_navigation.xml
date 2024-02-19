@@ -6,22 +6,22 @@
     app:startDestination="@+id/navigation_home">
 
     <fragment android:id="@+id/navigation_home"
-        android:name="com.example.nitmz.ui.Home.HomeFragment"
+        android:name="com.nitmizoram.nitmz.ui.Home.HomeFragment"
         android:label="Dashboard"
         tools:layout="@layout/fragment_home"/>
 
   <fragment android:id="@+id/navigation_messages"
-        android:name="com.example.nitmz.ui.Messages.MessagesFragment"
+        android:name="com.nitmizoram.nitmz.ui.Messages.MessagesFragment"
         android:label="Messages"
         tools:layout="@layout/fragment_messages"/>
 
   <fragment android:id="@+id/navigation_Notifications"
-        android:name="com.example.nitmz.ui.Notifications.NotificationsFragment"
+        android:name="com.nitmizoram.nitmz.ui.Notifications.NotificationsFragment"
         android:label="Notifications"
         tools:layout="@layout/fragment_notifications"/>
 
   <fragment android:id="@+id/navigation_profile"
-        android:name="com.example.nitmz.ui.Profile.ProfileFragment"
+        android:name="com.nitmizoram.nitmz.ui.Profile.ProfileFragment"
         android:label="My Profile"
         tools:layout="@layout/fragment_profile"/>
 

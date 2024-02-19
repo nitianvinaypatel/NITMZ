@@ -4,15 +4,34 @@
     <option name="selectedTabId" value="Firebase Crashlytics" />
     <option name="tabSettings">
       <map>
+        <entry key="Android Vitals">
+          <value>
+            <InsightsFilterSettings>
+              <option name="connection">
+                <ConnectionSetting>
+                  <option name="appId" value="com.nitmizoram.nitmz" />
+                </ConnectionSetting>
+              </option>
+              <option name="failureTypes">
+                <list>
+                  <option value="FATAL" />
+                </list>
+              </option>
+              <option name="signal" value="SIGNAL_UNSPECIFIED" />
+              <option name="timeIntervalDays" value="SEVEN_DAYS" />
+              <option name="visibilityType" value="ALL" />
+            </InsightsFilterSettings>
+          </value>
+        </entry>
         <entry key="Firebase Crashlytics">
           <value>
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.example.nitmz" />
-                  <option name="mobileSdkAppId" value="1:45369129882:android:58dfa3faa4988eefce5823" />
-                  <option name="projectId" value="nit-mizoram" />
-                  <option name="projectNumber" value="45369129882" />
+                  <option name="appId" value="com.nitmizoram.nitmz" />
+                  <option name="mobileSdkAppId" value="1:917958739566:android:761d527c0b84e1f670087f" />
+                  <option name="projectId" value="nitmz-student-app" />
+                  <option name="projectNumber" value="917958739566" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
